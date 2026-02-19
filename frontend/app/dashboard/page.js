@@ -8,22 +8,22 @@ export default function DashboardOverview() {
     const { balance, bdagBalance, platformSaldo, transactions } = useSnishop();
 
     const StatCard = ({ icon: Icon, label, value, unit, trend, trendType, color }) => (
-        <div className="card-base p-6">
+        <div className="stat-card">
             <div className="flex justify-between items-start mb-4">
-                <div className={`p-3 rounded-lg ${color}`}>
+                <div className={`stat-card-icon ${color}`}>
                     <Icon size={24} />
                 </div>
                 <button className="p-2 hover:bg-surface-secondary rounded-lg transition">
-                    <MoreVertical size={18} className="text-text-tertiary" />
+                    <MoreVertical size={18} className="text-text-muted" />
                 </button>
             </div>
-            <p className="text-text-tertiary text-sm font-medium uppercase tracking-wide mb-2">{label}</p>
-            <h3 className="text-2xl font-bold text-text-primary mb-3">
-                {value} <span className="text-lg text-text-secondary">{unit}</span>
+            <p className="stat-card-label">{label}</p>
+            <h3 className="stat-card-value">
+                {value} <span className="text-lg text-text-secondary font-normal">{unit}</span>
             </h3>
             {trend && (
-                <div className={`flex items-center gap-1 text-sm font-semibold ${trendType === 'positive' ? 'text-success' : 'text-danger'}`}>
-                    {trendType === 'positive' ? <ArrowUpRight size={16} /> : <ArrowDownLeft size={16} />}
+                <div className={`stat-card-trend ${trendType === 'positive' ? 'positive' : 'neutral'}`}>
+                    {trendType === 'positive' ? <ArrowUpRight size={14} className="inline mr-1" /> : <ArrowDownLeft size={14} className="inline mr-1" />}
                     {trend}
                 </div>
             )}
@@ -33,11 +33,9 @@ export default function DashboardOverview() {
     return (
         <div className="space-y-8">
             {/* Header Section */}
-            <div className="animate-fade-in">
-                <h1 className="text-4xl font-bold text-text-primary mb-2">
-                    Dashboard Overview
-                </h1>
-                <p className="text-text-secondary">Welcome back! Here's your portfolio performance and insights.</p>
+            <div className="section-header animate-fade-in">
+                <h1>Dashboard Overview</h1>
+                <p>Welcome back! Here's your portfolio performance and insights.</p>
             </div>
 
             {/* Stats Grid */}
@@ -49,7 +47,7 @@ export default function DashboardOverview() {
                     unit="SNI"
                     trend="+12.5%"
                     trendType="positive"
-                    color="bg-gradient-to-br from-accent-secondary/20 to-transparent text-accent-secondary"
+                    color="primary"
                 />
                 <StatCard
                     icon={Wallet}
@@ -58,7 +56,7 @@ export default function DashboardOverview() {
                     unit="BDAG"
                     trend="+8.2%"
                     trendType="positive"
-                    color="bg-gradient-to-br from-accent-primary/20 to-transparent text-accent-primary"
+                    color="success"
                 />
                 <StatCard
                     icon={CreditCard}
@@ -66,8 +64,8 @@ export default function DashboardOverview() {
                     value={platformSaldo.toLocaleString()}
                     unit="Credits"
                     trend="Stable"
-                    trendType="positive"
-                    color="bg-gradient-to-br from-success/20 to-transparent text-success"
+                    trendType="neutral"
+                    color="warning"
                 />
             </div>
 
@@ -77,44 +75,44 @@ export default function DashboardOverview() {
             </div>
 
             {/* Recent Transactions */}
-            <div className="card-base overflow-hidden animate-fade-in">
-                <div className="p-6 border-b border-border-default flex justify-between items-center">
+            <div className="chart-container animate-fade-in">
+                <div className="pb-6 border-b border-border flex justify-between items-center">
                     <div>
-                        <h2 className="text-xl font-bold text-text-primary">Recent Transactions</h2>
-                        <p className="text-text-tertiary text-sm mt-1">Latest activity on your account</p>
+                        <h2 className="chart-title">Recent Transactions</h2>
+                        <p className="chart-subtitle">Latest activity on your account</p>
                     </div>
-                    <a href="/dashboard/wallet" className="text-accent-primary hover:text-accent-primary-hover flex items-center gap-2 transition-colors font-semibold text-sm">
+                    <a href="/dashboard/wallet" className="text-primary hover:text-primary-hover flex items-center gap-2 transition-colors font-semibold text-sm">
                         View All <ArrowRight size={16} />
                     </a>
                 </div>
 
-                <div className="divide-y divide-border-subtle overflow-x-auto">
+                <div className="divide-y divide-border-light overflow-x-auto mt-6">
                     {transactions.length === 0 ? (
                         <div className="p-12 text-center flex flex-col items-center justify-center min-h-80">
                             <div className="w-16 h-16 bg-surface-secondary rounded-lg flex items-center justify-center mb-4">
-                                <Activity size={32} className="text-text-tertiary" />
+                                <Activity size={32} className="text-text-muted" />
                             </div>
                             <p className="text-text-secondary font-medium">No transactions yet</p>
-                            <p className="text-text-tertiary text-sm mt-1">Your transaction history will appear here</p>
+                            <p className="text-text-muted text-sm mt-1">Your transaction history will appear here</p>
                         </div>
                     ) : (
-                        <div className="divide-y divide-border-subtle">
+                        <div className="divide-y divide-border-light">
                             {transactions.slice(0, 5).map((tx) => (
                                 <div key={tx.id} className="p-6 hover:bg-surface-secondary/50 transition-colors flex items-center justify-between group cursor-pointer">
                                     <div className="flex items-center gap-4 flex-1">
-                                        <div className={`w-12 h-12 rounded-lg flex items-center justify-center font-bold ${
+                                        <div className={`w-12 h-12 rounded-lg flex items-center justify-center font-bold stat-card-icon ${
                                             tx.type.includes("Buy") 
-                                                ? "bg-gradient-to-br from-accent-primary/20 to-transparent text-accent-primary" 
+                                                ? "primary" 
                                                 : tx.type.includes("Service")
-                                                ? "bg-gradient-to-br from-accent-secondary/20 to-transparent text-accent-secondary"
-                                                : "bg-gradient-to-br from-success/20 to-transparent text-success"
+                                                ? "info"
+                                                : "success"
                                         }`}>
                                             {tx.type.includes("Token") ? <Coins size={20} /> :
                                                 tx.type.includes("Service") ? <Box size={20} /> : <CreditCard size={20} />}
                                         </div>
                                         <div className="flex-1">
-                                            <p className="font-semibold text-text-primary group-hover:text-accent-primary transition-colors">{tx.type}</p>
-                                            <p className="text-xs text-text-tertiary mt-1">{tx.date}</p>
+                                            <p className="font-semibold text-text-primary group-hover:text-primary transition-colors">{tx.type}</p>
+                                            <p className="text-xs text-text-muted mt-1">{tx.date}</p>
                                         </div>
                                     </div>
                                     <div className="text-right">
