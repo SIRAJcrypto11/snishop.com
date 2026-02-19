@@ -46,7 +46,7 @@ export default async function RoleManager() {
                     <h1 className="text-3xl font-extrabold text-[#202124]">Roles & Permissions</h1>
                     <p className="text-[#5F6368] mt-1">Define access levels and security clearances for the platform.</p>
                 </div>
-                <button className="flex items-center gap-2 bg-[#1A73E8] text-white px-4 py-2 rounded-xl font-bold hover:bg-[#1557B0] transition-colors shadow-sm">
+                <button className="flex items-center gap-2 bg-[#1A73E8] text-white px-4 py-2 rounded-lg font-bold hover:bg-[#1557B0] transition-colors shadow-sm">
                     <Shield size={18} />
                     <span>Create New Role</span>
                 </button>
@@ -54,7 +54,7 @@ export default async function RoleManager() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {roles.map(role => (
-                    <div key={role.id} className="bg-white border border-[#DADCE0] rounded-3xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 relative overflow-hidden group flex flex-col">
+                    <div key={role.id} className="bg-white border border-[#DADCE0] rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 relative overflow-hidden group flex flex-col min-w-0">
                         <div className="absolute top-0 right-0 p-4 opacity-5 group-hover:opacity-10 transition-opacity">
                             <Lock size={100} className="text-[#202124] -rotate-12" />
                         </div>
@@ -89,7 +89,7 @@ export default async function RoleManager() {
                             </div>
                         </div>
 
-                        <button className="w-full py-3 border border-[#DADCE0] rounded-xl text-[#1A73E8] hover:bg-[#F8F9FA] transition-colors font-bold mt-auto flex items-center justify-center gap-2 group-hover:border-[#1A73E8]/30">
+                        <button className="w-full py-3 border border-[#DADCE0] rounded-lg text-[#1A73E8] hover:bg-[#F8F9FA] transition-colors font-bold mt-auto flex items-center justify-center gap-2 group-hover:border-[#1A73E8]/30">
                             Configure Access
                         </button>
                     </div>

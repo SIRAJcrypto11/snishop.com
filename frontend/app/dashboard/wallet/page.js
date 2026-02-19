@@ -21,7 +21,7 @@ export default function WalletPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {/* BDAG Asset - Gold Card */}
-                <div className="bg-gradient-to-br from-[#1F2937] to-[#111827] rounded-3xl p-6 text-white shadow-xl relative overflow-hidden group">
+                <div className="bg-gradient-to-br from-[#1F2937] to-[#111827] rounded-xl p-6 text-white shadow-xl relative overflow-hidden group min-w-0">
                     <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
                         <img src="https://cryptologos.cc/logos/blockdag-bdag-logo.png?v=032" alt="BDAG" className="w-32 h-32 rotate-12" onError={(e) => e.target.style.display = 'none'} />
                     </div>
@@ -45,7 +45,7 @@ export default function WalletPage() {
                 </div>
 
                 {/* SNISHOP Asset - Blue Card */}
-                <div className="bg-gradient-to-br from-[#1967D2] to-[#1557B0] rounded-3xl p-6 text-white shadow-xl relative overflow-hidden group">
+                <div className="bg-gradient-to-br from-[#1967D2] to-[#1557B0] rounded-xl p-6 text-white shadow-xl relative overflow-hidden group min-w-0">
                     <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
                         {/* Placeholder for SNI Logo if available, using text for now or generic coin */}
                     </div>
@@ -69,7 +69,7 @@ export default function WalletPage() {
                 </div>
 
                 {/* Platform Credits - Green Card */}
-                <div className="bg-gradient-to-br from-[#1E8E3E] to-[#137333] rounded-3xl p-6 text-white shadow-xl relative overflow-hidden group">
+                <div className="bg-gradient-to-br from-[#1E8E3E] to-[#137333] rounded-xl p-6 text-white shadow-xl relative overflow-hidden group min-w-0">
                     <div className="relative z-10 flex flex-col h-full justify-between min-h-[180px]">
                         <div className="flex justify-between items-start">
                             <div className="p-2 bg-white/10 backdrop-blur-md rounded-xl font-bold text-xl">
@@ -93,7 +93,7 @@ export default function WalletPage() {
                 </div>
             </div>
 
-            <div className="bg-white rounded-3xl border border-[#DADCE0] shadow-sm overflow-hidden">
+            <div className="bg-white rounded-xl border border-[#DADCE0] shadow-sm overflow-hidden overflow-x-auto">
                 <div className="p-6 border-b border-[#DADCE0] flex items-center justify-between">
                     <h3 className="text-lg font-bold text-[#202124]">Transaction History</h3>
                     <div className="flex gap-2">

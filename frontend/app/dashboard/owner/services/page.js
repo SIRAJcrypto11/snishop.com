@@ -48,7 +48,7 @@ export default async function ServiceManager() {
                     ))}
                 </div>
             ) : (
-                <div className="bg-white rounded-3xl border border-[#DADCE0] p-12 text-center shadow-sm flex flex-col items-center justify-center min-h-[400px]">
+                <div className="bg-white rounded-xl border border-[#DADCE0] p-12 text-center shadow-sm flex flex-col items-center justify-center min-h-[400px]">
                     <div className="w-24 h-24 bg-[#F8F9FA] rounded-full flex items-center justify-center mb-6">
                         <Package size={40} className="text-[#BDC1C6]" />
                     </div>
