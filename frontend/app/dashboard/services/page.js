@@ -61,7 +61,7 @@ export default function ServicesPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                 {services.map((service) => (
-                    <div key={service.id} className="group bg-white rounded-3xl p-6 border border-[#DADCE0] hover:border-[#1A73E8]/50 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col">
+                    <div key={service.id} className="group bg-white rounded-xl p-6 border border-[#DADCE0] hover:border-[#1A73E8]/50 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col min-w-0">
                         {service.name.includes("ERP") && (
                             <div className="absolute top-4 right-4 bg-gradient-to-r from-[#F9AB00] to-[#F57F17] text-white text-[10px] font-bold px-2 py-1 rounded-full flex items-center gap-1 shadow-sm z-10">
                                 <Star size={10} fill="currentColor" />
@@ -70,7 +70,7 @@ export default function ServicesPage() {
                         )}
 
                         <div className="flex items-start gap-4 mb-4">
-                            <div className="w-16 h-16 rounded-2xl bg-[#F8F9FA] border border-[#E8EAED] p-2 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+                            <div className="w-16 h-16 rounded-xl bg-[#F8F9FA] border border-[#E8EAED] p-2 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
                                 <img src={service.icon} alt={service.name} className="w-full h-full object-contain" />
                             </div>
                             <div>
@@ -99,7 +99,7 @@ export default function ServicesPage() {
 
                         <button
                             onClick={() => handleBuy(service)}
-                            className="w-full py-3 rounded-xl bg-[#1A73E8] text-white font-bold hover:bg-[#1557B0] transition-colors flex items-center justify-center gap-2 shadow-sm group-hover:shadow-md mt-auto"
+                            className="w-full py-3 rounded-lg bg-[#1A73E8] text-white font-bold hover:bg-[#1557B0] transition-colors flex items-center justify-center gap-2 shadow-sm group-hover:shadow-md mt-auto"
                         >
                             <Zap size={18} />
                             Get Started

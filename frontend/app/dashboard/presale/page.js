@@ -62,7 +62,7 @@ export default function PresalePage() {
                 </div>
             )}
 
-            <div className={`relative bg-white rounded-3xl p-6 md:p-8 shadow-xl border border-[#DADCE0] overflow-hidden ${!isPresaleActive ? 'opacity-60 pointer-events-none grayscale' : ''}`}>
+            <div className={`relative bg-white rounded-xl p-6 md:p-8 shadow-xl border border-[#DADCE0] overflow-hidden ${!isPresaleActive ? 'opacity-60 pointer-events-none grayscale' : ''}`}>
                 {/* Decorative Background Elements */}
                 <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-[#FEF7E0] to-transparent rounded-full blur-3xl -z-10 opacity-50"></div>
 
@@ -75,7 +75,7 @@ export default function PresalePage() {
                 </div>
 
                 {/* FROM input */}
-                <div className="bg-[#F8F9FA] rounded-2xl p-5 border border-[#E8EAED] hover:border-[#DADCE0] transition-colors group relative">
+                <div className="bg-[#F8F9FA] rounded-xl p-5 border border-[#E8EAED] hover:border-[#DADCE0] transition-colors group relative">
                     <div className="flex justify-between text-sm text-[#5F6368] mb-2 font-medium">
                         <span>You Pay</span>
                         <span>Balance: {parseFloat(bdagBalance).toFixed(4)}</span>
@@ -111,7 +111,7 @@ export default function PresalePage() {
                 </div>
 
                 {/* TO input */}
-                <div className="bg-[#F8F9FA] rounded-2xl p-5 border border-[#E8EAED]">
+                <div className="bg-[#F8F9FA] rounded-xl p-5 border border-[#E8EAED]">
                     <div className="flex justify-between text-sm text-[#5F6368] mb-2 font-medium">
                         <span>You Receive</span>
                         <span>Rate: {presaleRate}x</span>
@@ -145,8 +145,8 @@ export default function PresalePage() {
                     ) : (
                         <button
                             className={`w-full py-4 rounded-xl font-bold text-lg text-white shadow-lg transition-all transform active:scale-[0.98] ${isLoading || !amount || parseFloat(amount) < MIN_BUY || !isPresaleActive
-                                    ? 'bg-[#DADCE0] cursor-not-allowed shadow-none text-[#9AA0A6]'
-                                    : 'bg-gradient-to-r from-[#F9AB00] to-[#F57F17] hover:shadow-xl hover:brightness-110'
+                                ? 'bg-[#DADCE0] cursor-not-allowed shadow-none text-[#9AA0A6]'
+                                : 'bg-gradient-to-r from-[#F9AB00] to-[#F57F17] hover:shadow-xl hover:brightness-110'
                                 }`}
                             onClick={handleSwap}
                             disabled={isLoading || !amount || parseFloat(amount) < MIN_BUY || !isPresaleActive}

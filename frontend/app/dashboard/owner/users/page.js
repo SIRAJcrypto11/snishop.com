@@ -38,7 +38,7 @@ export default async function UserManager() {
                 </div>
             </div>
 
-            <div className="bg-white border border-[#DADCE0] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white border border-[#DADCE0] rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow overflow-x-auto">
                 <div className="overflow-x-auto">
                     <table className="w-full text-left border-collapse">
                         <thead className="bg-[#F8F9FA] text-[#5F6368]">
@@ -79,8 +79,8 @@ export default async function UserManager() {
                                     </td>
                                     <td className="p-5">
                                         <div className={`px-3 py-1 rounded-full text-xs font-bold border inline-block shadow-sm ${user.membershipTier === 'DIAMOND' ? 'bg-cyan-50 text-cyan-700 border-cyan-200' :
-                                                user.membershipTier === 'GOLD' ? 'bg-amber-50 text-amber-700 border-amber-200' :
-                                                    'bg-gray-50 text-gray-600 border-gray-200'
+                                            user.membershipTier === 'GOLD' ? 'bg-amber-50 text-amber-700 border-amber-200' :
+                                                'bg-gray-50 text-gray-600 border-gray-200'
                                             }`}>
                                             {user.membershipTier}
                                         </div>

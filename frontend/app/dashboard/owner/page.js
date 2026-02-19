@@ -51,7 +51,7 @@ export default async function OwnerDashboard() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {/* Total Users Card */}
-                <div className="bg-gradient-to-br from-[#E8F0FE] to-white rounded-3xl p-6 border border-[#D2E3FC] shadow-sm hover:shadow-lg transition-all duration-300 relative overflow-hidden group">
+                <div className="bg-gradient-to-br from-[#E8F0FE] to-white rounded-xl p-6 border border-[#D2E3FC] shadow-sm hover:shadow-lg transition-all duration-300 relative overflow-hidden group min-w-0">
                     <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
                         <Users size={80} className="text-[#1967D2] rotate-12" />
                     </div>
@@ -70,7 +70,7 @@ export default async function OwnerDashboard() {
                 </div>
 
                 {/* Total Revenue Card */}
-                <div className="bg-gradient-to-br from-[#E6F4EA] to-white rounded-3xl p-6 border border-[#CEEAD6] shadow-sm hover:shadow-lg transition-all duration-300 relative overflow-hidden group">
+                <div className="bg-gradient-to-br from-[#E6F4EA] to-white rounded-xl p-6 border border-[#CEEAD6] shadow-sm hover:shadow-lg transition-all duration-300 relative overflow-hidden group min-w-0">
                     <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
                         <DollarSign size={80} className="text-[#137333] rotate-12" />
                     </div>
@@ -89,7 +89,7 @@ export default async function OwnerDashboard() {
                 </div>
 
                 {/* Total Orders Card */}
-                <div className="bg-gradient-to-br from-[#F3E8FD] to-white rounded-3xl p-6 border border-[#E9D5FF] shadow-sm hover:shadow-lg transition-all duration-300 relative overflow-hidden group">
+                <div className="bg-gradient-to-br from-[#F3E8FD] to-white rounded-xl p-6 border border-[#E9D5FF] shadow-sm hover:shadow-lg transition-all duration-300 relative overflow-hidden group min-w-0">
                     <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
                         <ShoppingCart size={80} className="text-[#9334E6] rotate-12" />
                     </div>
@@ -108,7 +108,7 @@ export default async function OwnerDashboard() {
                 </div>
             </div>
 
-            <div className="bg-white rounded-3xl border border-[#DADCE0] shadow-sm overflow-hidden p-6">
+            <div className="bg-white rounded-xl border border-[#DADCE0] shadow-sm overflow-hidden p-6">
                 <div className="mb-6">
                     <h3 className="text-xl font-bold text-[#202124]">Performance Analytics</h3>
                 </div>
