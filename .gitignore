@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Next.js build
+frontend/.next/
+frontend/out/
+
+# Env files
+.env
+.env.local
+frontend/.env
+frontend/.env.local
+
+# Hardhat/Contracts
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# Misc
+.DS_Store
+*.log
+frontend/build_log*.txt
+frontend/lint_output.txt
+frontend/.git

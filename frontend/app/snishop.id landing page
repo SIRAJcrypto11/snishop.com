@@ -1,0 +1,2095 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Google Ads -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3717722907653001"
+        crossorigin="anonymous"></script>
+
+    <!-- SEO Meta Tags -->
+    <title>SNISHOP.ID - Platform Digital Terpercaya untuk Bisnis Anda</title>
+    <meta name="description"
+        content="SNISHOP.ID adalah platform SaaS terintegrasi untuk layanan digital, edukasi, aplikasi AI, dan IT services. Super-app lokal terpercaya dengan harga terjangkau.">
+    <meta name="keywords"
+        content="SNISHOP.ID, layanan digital, cek turnitin, zoom premium, chatgpt plus, ppob, topup game, jasa web, AI services">
+    <meta name="author" content="SNISHOP.ID">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="SNISHOP.ID - Platform Digital Terpercaya">
+    <meta property="og:description" content="Platform SaaS terintegrasi untuk semua kebutuhan digital bisnis Anda.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://snishop.id">
+    <meta property="og:image" content="https://i.ibb.co.com/MGVPZtv/20230722-162429.png">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" type="image/x-icon">
+    <link rel="icon" href="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="SNISHOP.ID">
+                    <span class="logo-text"></span>
+                </a>
+
+                <!-- Navigation -->
+                <nav class="nav">
+                    <a href="index.html" class="nav-link active">Beranda</a>
+                    <a href="layanan.html" class="nav-link">Layanan</a>
+                    <a href="harga.html" class="nav-link">Harga</a>
+                    <a href="blog/index.html" class="nav-link">Blog</a>
+                    <a href="tentang.html" class="nav-link">Tentang</a>
+                    <a href="faq.html" class="nav-link">FAQ</a>
+                    <a href="#kontak" class="nav-link">Kontak</a>
+                </nav>
+
+                <!-- Actions -->
+                <div class="header-actions">
+                    <a href="https://wa.me/6285185151356?text=Halo%20SNISHOP.ID" class="btn btn-secondary"
+                        target="_blank">Hubungi Sales</a>
+                    <a href="layanan.html" class="btn btn-primary">Mulai Sekarang</a>
+                </div>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-inner">
+                <div class="hero-content fade-in">
+                    <h1 class="hero-title">Platform Digital Terpercaya untuk Bisnis Anda</h1>
+                    <p class="hero-text">
+                        Semua layanan digital yang Anda butuhkan dalam satu platform. Dari edukasi, aplikasi premium,
+                        hingga solusi IT - semuanya dengan harga terjangkau dan dukungan 24/7.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="layanan.html" class="btn btn-primary btn-lg">Jelajahi Layanan</a>
+                        <a href="https://wa.me/6285185151356?text=Halo%20SNISHOP.ID,%20saya%20ingin%20konsultasi"
+                            class="btn btn-secondary btn-lg" target="_blank">Konsultasi Gratis</a>
+                    </div>
+                </div>
+                <div class="hero-visual fade-in">
+                    <div class="floating-icons-grid">
+                        <!-- Row 1 -->
+                        <div class="floating-icon" style="--delay: 0s; --duration: 3s;">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e711957c86e922f92ad49f/a236b74f4_Logosnishopbirupanjang.png"
+                                alt="SNISHOP">
+                        </div>
+                        <div class="floating-icon" style="--delay: 0.3s; --duration: 3.5s;">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/688a42916670b89e7b51038c/de7e35572_logo.png"
+                                alt="TODOIT">
+                        </div>
+                        <div class="floating-icon" style="--delay: 0.6s; --duration: 2.8s;">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/cae5a7a92_logo.png"
+                                alt="BudgyAI">
+                        </div>
+                        <!-- Row 2 -->
+                        <div class="floating-icon" style="--delay: 0.2s; --duration: 3.2s;">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/e4985649a_logo.png"
+                                alt="FormEase">
+                        </div>
+                        <div class="floating-icon center-icon" style="--delay: 0s; --duration: 4s;">
+                            <div class="center-icon-content">
+                                <span class="icon-pulse"></span>
+                                <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="SNISHOP">
+                            </div>
+                        </div>
+                        <div class="floating-icon" style="--delay: 0.4s; --duration: 3.4s;">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/50941d487_logo.png"
+                                alt="AutoInvoice">
+                        </div>
+                        <!-- Row 3 -->
+                        <div class="floating-icon" style="--delay: 0.5s; --duration: 3.1s;">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/45029a465_logo.png"
+                                alt="StudeeAI">
+                        </div>
+                        <div class="floating-icon" style="--delay: 0.1s; --duration: 2.9s;">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68bba57a36470263178ec522/c8c4dc720_logo.png"
+                                alt="VoiceScribe">
+                        </div>
+                        <div class="floating-icon" style="--delay: 0.7s; --duration: 3.3s;">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/8a46ff438_logo.png"
+                                alt="FineEaseAI">
+                        </div>
+                    </div>
+                    <div class="connecting-lines"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Logo Slider - Infinite Loop -->
+    <section class="client-slider-section">
+        <p class="client-slider-title">Dipercaya oleh Berbagai Bisnis</p>
+        <div class="client-slider-wrapper">
+            <div class="client-slider-track">
+                <!-- First set of logos -->
+                <a href="https://www.instagram.com/blimozza.id/" target="_blank" class="client-logo-item"
+                    title="Blimozza">
+                    <img src="assets/images/client/Blimozza.jpg" alt="Blimozza">
+                </a>
+                <a href="http://instagram.com/peuybatik/" target="_blank" class="client-logo-item" title="Peuy Batik">
+                    <img src="assets/images/client/peuy batik.jpg" alt="Peuy Batik">
+                </a>
+                <a href="https://www.instagram.com/taksiabang.official/" target="_blank" class="client-logo-item"
+                    title="Taksi Abang">
+                    <img src="assets/images/client/Taksi Abang.jpg" alt="Taksi Abang">
+                </a>
+                <a href="https://www.instagram.com/jamukitointernasional/" target="_blank" class="client-logo-item"
+                    title="Jamu Kito Internasional">
+                    <img src="assets/images/client/Jamu Kito Internasional.jpg" alt="Jamu Kito Internasional">
+                </a>
+                <a href="https://www.instagram.com/kerupukkeitekaur.official/" target="_blank" class="client-logo-item"
+                    title="Kerupuk Keite">
+                    <img src="assets/images/client/Kerupuk Keite.jpeg" alt="Kerupuk Keite">
+                </a>
+                <a href="https://www.instagram.com/cryptocurrent.id/" target="_blank" class="client-logo-item"
+                    title="Cryptocurrent">
+                    <img src="assets/images/client/Cryptocurrent.jpg" alt="Cryptocurrent">
+                </a>
+                <a href="https://www.instagram.com/soluze.id/" target="_blank" class="client-logo-item" title="Soluze">
+                    <img src="assets/images/client/Soluze.jpg" alt="Soluze">
+                </a>
+                <a href="https://www.instagram.com/cotrade_id/" target="_blank" class="client-logo-item"
+                    title="Cotrade">
+                    <img src="assets/images/client/Cotrade.jpg" alt="Cotrade">
+                </a>
+                <!-- Duplicate set for seamless infinite loop -->
+                <a href="https://www.instagram.com/blimozza.id/" target="_blank" class="client-logo-item"
+                    title="Blimozza">
+                    <img src="assets/images/client/Blimozza.jpg" alt="Blimozza">
+                </a>
+                <a href="http://instagram.com/peuybatik/" target="_blank" class="client-logo-item" title="Peuy Batik">
+                    <img src="assets/images/client/peuy batik.jpg" alt="Peuy Batik">
+                </a>
+                <a href="https://www.instagram.com/taksiabang.official/" target="_blank" class="client-logo-item"
+                    title="Taksi Abang">
+                    <img src="assets/images/client/Taksi Abang.jpg" alt="Taksi Abang">
+                </a>
+                <a href="https://www.instagram.com/jamukitointernasional/" target="_blank" class="client-logo-item"
+                    title="Jamu Kito Internasional">
+                    <img src="assets/images/client/Jamu Kito Internasional.jpg" alt="Jamu Kito Internasional">
+                </a>
+                <a href="https://www.instagram.com/kerupukkeitekaur.official/" target="_blank" class="client-logo-item"
+                    title="Kerupuk Keite">
+                    <img src="assets/images/client/Kerupuk Keite.jpeg" alt="Kerupuk Keite">
+                </a>
+                <a href="https://www.instagram.com/cryptocurrent.id/" target="_blank" class="client-logo-item"
+                    title="Cryptocurrent">
+                    <img src="assets/images/client/Cryptocurrent.jpg" alt="Cryptocurrent">
+                </a>
+                <a href="https://www.instagram.com/soluze.id/" target="_blank" class="client-logo-item" title="Soluze">
+                    <img src="assets/images/client/Soluze.jpg" alt="Soluze">
+                </a>
+                <a href="https://www.instagram.com/cotrade_id/" target="_blank" class="client-logo-item"
+                    title="Cotrade">
+                    <img src="assets/images/client/Cotrade.jpg" alt="Cotrade">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Marquee -->
+    <section class="features-marquee">
+        <div class="marquee-track">
+            <div class="marquee-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                <span>Layanan Edukasi Premium</span>
+            </div>
+            <div class="marquee-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                <span>Aplikasi AI Terlengkap</span>
+            </div>
+            <div class="marquee-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                <span>Keamanan Data Terjamin</span>
+            </div>
+            <div class="marquee-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                <span>Proses Cepat & Mudah</span>
+            </div>
+            <div class="marquee-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                <span>Dukungan 24/7</span>
+            </div>
+            <div class="marquee-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                <span>Harga Terjangkau</span>
+            </div>
+            <!-- Duplicate for seamless loop -->
+            <div class="marquee-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                <span>Layanan Edukasi Premium</span>
+            </div>
+            <div class="marquee-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                <span>Aplikasi AI Terlengkap</span>
+            </div>
+            <div class="marquee-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                <span>Keamanan Data Terjamin</span>
+            </div>
+            <div class="marquee-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                <span>Proses Cepat & Mudah</span>
+            </div>
+            <div class="marquee-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                <span>Dukungan 24/7</span>
+            </div>
+            <div class="marquee-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                <span>Harga Terjangkau</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats/Counter Section -->
+    <section class="stats-section section bg-surface">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal-scale">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" />
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="10000">0</div>
+                    <div class="stat-label">Pelanggan Aktif</div>
+                </div>
+                <div class="stat-item reveal-scale">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="50000">0</div>
+                    <div class="stat-label">Transaksi Selesai</div>
+                </div>
+                <div class="stat-item reveal-scale">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="4.9">0</div>
+                    <div class="stat-label">Rating Pelanggan</div>
+                </div>
+                <div class="stat-item reveal-scale">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="24">0</div>
+                    <div class="stat-label">Support 24/7</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SNISHOP Ecosystem Section - EXACT Google Workspace Style -->
+    <section class="section bg-white" id="ekosistem">
+        <div class="container">
+            <!-- Headline -->
+            <div class="text-center mb-4">
+                <h2 class="fade-in"
+                    style="font-size: 2.5rem; font-weight: 400; line-height: 1.3; max-width: 700px; margin: 0 auto;">
+                    Semua tools yang Anda butuhkan, dan<br>beberapa lagi yang akan Anda sukai.
+                </h2>
+            </div>
+
+            <!-- Three Feature Columns - Google Style -->
+            <div class="grid grid-3 mt-4 mb-4 fade-in" style="gap: 48px; text-align: center;">
+                <div class="feature-column">
+                    <h4 style="font-size: 1.125rem; margin-bottom: 12px; color: var(--text-primary);">AI-Powered Apps
+                    </h4>
+                    <p style="font-size: 0.9375rem; color: var(--text-secondary); line-height: 1.6; margin: 0;">
+                        Kerjakan lebih cepat dengan aplikasi berbasis AI seperti BudgyAI, StudeeAI, dan TODOIT yang
+                        terintegrasi.
+                    </p>
+                </div>
+                <div class="feature-column">
+                    <h4 style="font-size: 1.125rem; margin-bottom: 12px; color: var(--text-primary);">Cloud Integration
+                    </h4>
+                    <p style="font-size: 0.9375rem; color: var(--text-secondary); line-height: 1.6; margin: 0;">
+                        Kolaborasi real-time dari mana saja, dengan tools yang selalu terupdate dan tersinkronisasi.
+                    </p>
+                </div>
+                <div class="feature-column">
+                    <h4 style="font-size: 1.125rem; margin-bottom: 12px; color: var(--text-primary);">Keamanan Terjamin
+                    </h4>
+                    <p style="font-size: 0.9375rem; color: var(--text-secondary); line-height: 1.6; margin: 0;">
+                        Lindungi data bisnis dan dokumen Anda dengan sistem keamanan tingkat enterprise.
+                    </p>
+                </div>
+            </div>
+
+            <!-- "SNISHOP Ecosystem includes:" Label -->
+            <div class="text-center mb-3 fade-in">
+                <p style="font-size: 1rem; color: var(--text-primary); font-weight: 500; margin: 0;">SNISHOP Ecosystem
+                    meliputi:</p>
+            </div>
+
+            <!-- App Icons Row - EXACT Google Workspace Style with Tooltips -->
+            <div class="apps-icon-row fade-in">
+                <!-- SNISHOP -->
+                <div class="app-icon-item">
+                    <a href="https://erp.snishop.com/" target="_blank" class="app-icon-link">
+                        <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e711957c86e922f92ad49f/a236b74f4_Logosnishopbirupanjang.png"
+                            alt="SNISHOP" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                    </a>
+                    <span class="app-label">ERP SNISHOP</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e711957c86e922f92ad49f/a236b74f4_Logosnishopbirupanjang.png"
+                                alt="SNISHOP" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                        </div>
+                        <p class="tooltip-name">ERP SNISHOP</p>
+                        <p class="tooltip-desc">Smart Business Operating System ERP</p>
+                        <a href="https://erp.snishop.com/" target="_blank" class="tooltip-link">Pelajari lebih
+                            lanjut</a>
+                    </div>
+                </div>
+
+                <!-- TODOIT -->
+                <div class="app-icon-item">
+                    <a href="https://todoit.snishop.com/" target="_blank" class="app-icon-link">
+                        <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/688a42916670b89e7b51038c/de7e35572_logo.png"
+                            alt="TODOIT" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                    </a>
+                    <span class="app-label">TODOIT AI</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/688a42916670b89e7b51038c/de7e35572_logo.png"
+                                alt="TODOIT" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                        </div>
+                        <p class="tooltip-name">TODOIT AI</p>
+                        <p class="tooltip-desc">Finance & To-do AI Assistant</p>
+                        <a href="https://todoit.snishop.com/" target="_blank" class="tooltip-link">Pelajari lebih
+                            lanjut</a>
+                    </div>
+                </div>
+                <!-- KasirinAI -->
+                <div class="app-icon-item">
+                    <a href="https://snicekplagiasi.base44.app/" target="_blank" class="app-icon-link">
+                        <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="KasirinAI">
+                    </a>
+                    <span class="app-label">Cek Turnitin</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="KasirinAI">
+                        </div>
+                        <p class="tooltip-name">snicekplagiasi</p>
+                        <p class="tooltip-desc">Cek Plagiasi Akurat Norepository</p>
+                        <a href="https://snicekplagiasi.base44.app/" target="_blank" class="tooltip-link">Pelajari lebih
+                            lanjut</a>
+                    </div>
+                </div>
+                <!-- BudgyAI -->
+                <div class="app-icon-item">
+                    <a href="https://budgyai.vercel.app/" target="_blank" class="app-icon-link">
+                        <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/cae5a7a92_logo.png"
+                            alt="BudgyAI" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                    </a>
+                    <span class="app-label">BudgyAI</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/cae5a7a92_logo.png"
+                                alt="BudgyAI" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                        </div>
+                        <p class="tooltip-name">BudgyAI</p>
+                        <p class="tooltip-desc">AI Budget Planning Assistant</p>
+                        <a href="https://budgyai.vercel.app/" target="_blank" class="tooltip-link">Pelajari lebih
+                            lanjut</a>
+                    </div>
+                </div>
+
+                <!-- FormEase -->
+                <div class="app-icon-item">
+                    <a href="https://app--form-ease-d76c872b.base44.app" target="_blank" class="app-icon-link">
+                        <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/e4985649a_logo.png"
+                            alt="FormEase" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                    </a>
+                    <span class="app-label">FormEase</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/e4985649a_logo.png"
+                                alt="FormEase" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                        </div>
+                        <p class="tooltip-name">FormEase</p>
+                        <p class="tooltip-desc">Smart Online Form Builder</p>
+                        <a href="https://app--form-ease-d76c872b.base44.app" target="_blank"
+                            class="tooltip-link">Pelajari lebih lanjut</a>
+                    </div>
+                </div>
+
+                <!-- AutoInvoice -->
+                <div class="app-icon-item">
+                    <a href="https://autoinvoiceai.base44.app/" target="_blank" class="app-icon-link">
+                        <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/50941d487_logo.png"
+                            alt="AutoInvoice" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                    </a>
+                    <span class="app-label">Invoice</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/50941d487_logo.png"
+                                alt="AutoInvoice" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                        </div>
+                        <p class="tooltip-name">AutoInvoice</p>
+                        <p class="tooltip-desc">Automatic Invoice Generator</p>
+                        <a href="https://autoinvoiceai.base44.app/" target="_blank" class="tooltip-link">Pelajari lebih
+                            lanjut</a>
+                    </div>
+                </div>
+
+                <!-- StudeeAI -->
+                <div class="app-icon-item">
+                    <a href="https://studeeai.base44.app/" target="_blank" class="app-icon-link">
+                        <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/45029a465_logo.png"
+                            alt="StudeeAI" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                    </a>
+                    <span class="app-label">StudeeAI</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/45029a465_logo.png"
+                                alt="StudeeAI" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                        </div>
+                        <p class="tooltip-name">StudeeAI</p>
+                        <p class="tooltip-desc">AI Study Assistant</p>
+                        <a href="https://studeeai.base44.app/" target="_blank" class="tooltip-link">Pelajari lebih
+                            lanjut</a>
+                    </div>
+                </div>
+
+                <!-- VoiceScribe -->
+                <div class="app-icon-item">
+                    <a href="https://voicecribe.vercel.app/" target="_blank" class="app-icon-link">
+                        <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68bba57a36470263178ec522/c8c4dc720_logo.png"
+                            alt="VoiceScribe" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                    </a>
+                    <span class="app-label">VoiceScribe</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68bba57a36470263178ec522/c8c4dc720_logo.png"
+                                alt="VoiceScribe" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                        </div>
+                        <p class="tooltip-name">VoiceScribe</p>
+                        <p class="tooltip-desc">Voice-to-Text Transcription</p>
+                        <a href="https://voicecribe.vercel.app/" target="_blank" class="tooltip-link">Pelajari lebih
+                            lanjut</a>
+                    </div>
+                </div>
+
+                <!-- TaskDay -->
+                <div class="app-icon-item">
+                    <a href="https://app--taskday-ecedead2.base44.app" target="_blank" class="app-icon-link">
+                        <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/d7e4cdddd_logo.png"
+                            alt="TaskDay" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                    </a>
+                    <span class="app-label">TaskDay</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/d7e4cdddd_logo.png"
+                                alt="TaskDay" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                        </div>
+                        <p class="tooltip-name">TaskDay</p>
+                        <p class="tooltip-desc">Daily Task Management</p>
+                        <a href="https://app--taskday-ecedead2.base44.app" target="_blank" class="tooltip-link">Pelajari
+                            lebih lanjut</a>
+                    </div>
+                </div>
+
+                <!-- FineEaseAI -->
+                <div class="app-icon-item">
+                    <a href="https://app--fin-easeai-cf41924a.base44.app/" target="_blank" class="app-icon-link">
+                        <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/8a46ff438_logo.png"
+                            alt="FineEaseAI" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                    </a>
+                    <span class="app-label">FineEase</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/8a46ff438_logo.png"
+                                alt="FineEaseAI" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                        </div>
+                        <p class="tooltip-name">FineEaseAI</p>
+                        <p class="tooltip-desc">Financial AI Assistant</p>
+                        <a href="https://app--fin-easeai-cf41924a.base44.app/" target="_blank"
+                            class="tooltip-link">Pelajari lebih lanjut</a>
+                    </div>
+                </div>
+
+                <!-- KasirinAI -->
+                <div class="app-icon-item">
+                    <a href="https://kasirinai.vercel.app/" target="_blank" class="app-icon-link">
+                        <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="KasirinAI">
+                    </a>
+                    <span class="app-label">KasirinAI</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="KasirinAI">
+                        </div>
+                        <p class="tooltip-name">KasirinAI</p>
+                        <p class="tooltip-desc">Smart POS for UMKM</p>
+                        <a href="https://kasirinai.vercel.app/" target="_blank" class="tooltip-link">Pelajari lebih
+                            lanjut</a>
+                    </div>
+                </div>
+
+                <!-- CatatanID -->
+                <div class="app-icon-item">
+                    <a href="https://catatanid.vercel.app/" target="_blank" class="app-icon-link">
+                        <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="CatatanID">
+                    </a>
+                    <span class="app-label">Catatan</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="CatatanID">
+                        </div>
+                        <p class="tooltip-name">CatatanID</p>
+                        <p class="tooltip-desc">AI-powered Notes & Docs</p>
+                        <a href="https://catatanid.vercel.app/" target="_blank" class="tooltip-link">Pelajari lebih
+                            lanjut</a>
+                    </div>
+                </div>
+
+                <!-- TeamMath -->
+                <div class="app-icon-item">
+                    <a href="https://app--team-math-6854a695.base44.app/" target="_blank" class="app-icon-link">
+                        <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="TeamMath">
+                    </a>
+                    <span class="app-label">TeamMath</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="TeamMath">
+                        </div>
+                        <p class="tooltip-name">TeamMath</p>
+                        <p class="tooltip-desc">Math Collaboration Platform</p>
+                        <a href="https://app--team-math-6854a695.base44.app/" target="_blank"
+                            class="tooltip-link">Pelajari lebih lanjut</a>
+                    </div>
+                </div>
+
+                <!-- PPOB SNISHOP -->
+                <div class="app-icon-item">
+                    <a href="https://buylink.id/snishop.id" target="_blank" class="app-icon-link">
+                        <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="PPOB SNISHOP">
+                    </a>
+                    <span class="app-label">PPOB Pulsa</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="PPOB SNISHOP">
+                        </div>
+                        <p class="tooltip-name">PPOB SNISHOP</p>
+                        <p class="tooltip-desc">Layanan Pembayaran Online</p>
+                        <a href="https://buylink.id/snishop.id" target="_blank" class="tooltip-link">Pelajari lebih
+                            lanjut</a>
+                    </div>
+                </div>
+
+                <!-- TopUp Game -->
+                <div class="app-icon-item">
+                    <a href="https://www.snishopgame.biz.id/" target="_blank" class="app-icon-link">
+                        <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="TopUp Game">
+                    </a>
+                    <span class="app-label">TopUp Games</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="TopUp Game">
+                        </div>
+                        <p class="tooltip-name">SNISHOP Game</p>
+                        <p class="tooltip-desc">TopUp Game Terlengkap</p>
+                        <a href="https://www.snishopgame.biz.id/" target="_blank" class="tooltip-link">Pelajari lebih
+                            lanjut</a>
+                    </div>
+                </div>
+
+                <!-- Sninonton -->
+                <div class="app-icon-item">
+                    <a href="https://sninonton.snishop.com/" target="_blank" class="app-icon-link">
+                        <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="Sninonton">
+                    </a>
+                    <span class="app-label">Sninonton</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="Sninonton">
+                        </div>
+                        <p class="tooltip-name">Sninonton</p>
+                        <p class="tooltip-desc">Streaming Platform</p>
+                        <a href="https://sninonton.snishop.com/" target="_blank" class="tooltip-link">Pelajari lebih
+                            lanjut</a>
+                    </div>
+                </div>
+
+                <!-- Snidesain -->
+                <div class="app-icon-item">
+                    <a href="https://snidesain.snishop.com/" target="_blank" class="app-icon-link">
+                        <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="Snidesain">
+                    </a>
+                    <span class="app-label">Snidesain</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="Snidesain">
+                        </div>
+                        <p class="tooltip-name">Snidesain</p>
+                        <p class="tooltip-desc">Jasa Desain Profesional</p>
+                        <a href="https://snidesain.snishop.com/" target="_blank" class="tooltip-link">Pelajari lebih
+                            lanjut</a>
+                    </div>
+                </div>
+
+                <!-- Bangunweb -->
+                <div class="app-icon-item">
+                    <a href="https://bangunweb.snishop.com/" target="_blank" class="app-icon-link">
+                        <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="Bangunweb">
+                    </a>
+                    <span class="app-label">Bangunweb</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="Bangunweb">
+                        </div>
+                        <p class="tooltip-name">Bangunweb</p>
+                        <p class="tooltip-desc">Jasa Pembuatan Website</p>
+                        <a href="https://bangunweb.snishop.com/" target="_blank" class="tooltip-link">Pelajari lebih
+                            lanjut</a>
+                    </div>
+                </div>
+
+                <!-- Snijadwalin -->
+                <div class="app-icon-item">
+                    <a href="https://snijadwalin.snishop.com/" target="_blank" class="app-icon-link">
+                        <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="Snijadwalin">
+                    </a>
+                    <span class="app-label">Jadwalin Zoom</span>
+                    <div class="app-tooltip">
+                        <div class="tooltip-icon">
+                            <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="Snijadwalin">
+                        </div>
+                        <p class="tooltip-name">Snijadwalin</p>
+                        <p class="tooltip-desc">Manajemen Jadwal Online</p>
+                        <a href="https://snijadwalin.snishop.com/" target="_blank" class="tooltip-link">Pelajari lebih
+                            lanjut</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Showcase Section - Google Workspace Premium Features Style -->
+    <section class="section bg-surface" id="fitur-apps">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="fade-in" style="font-size: 2.5rem; font-weight: 400;">
+                    Fitur Premium dari Setiap Aplikasi.
+                </h2>
+            </div>
+
+            <!-- Feature Cards Carousel - Google Style -->
+            <div class="feature-showcase-wrapper">
+                <div class="feature-showcase-grid fade-in" id="featureCarousel">
+                    <!-- Feature Card 1 - SNISHOP -->
+                    <div class="feature-card featured">
+                        <div class="feature-screenshot">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e711957c86e922f92ad49f/a236b74f4_Logosnishopbirupanjang.png"
+                                alt="SNISHOP Dashboard">
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-app-badge">
+                                <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e711957c86e922f92ad49f/a236b74f4_Logosnishopbirupanjang.png"
+                                    alt="SNISHOP" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                                <span>SNISHOP</span>
+                            </div>
+                            <h3 class="feature-title">Kelola bisnis dengan sistem terintegrasi</h3>
+                            <p class="feature-desc">Platform pengelolaan bisnis lengkap dengan modul CRM, inventory,
+                                keuangan, dan reporting dalam satu dashboard.</p>
+                            <a href="https://snishop.base44.app/" target="_blank" class="feature-link">Pelajari lebih
+                                lanjut</a>
+                        </div>
+                    </div>
+                    <!-- Feature Card 2 - TODOIT -->
+                    <div class="feature-card">
+                        <div class="feature-screenshot">
+                            <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="TODOIT App">
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-app-badge">
+                                <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="TODOIT"
+                                    onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                                <span>SNICEKPLAGIASI</span>
+                            </div>
+                            <h3 class="feature-title">Cek Plagiasi No Repository Tepat dan Akurat</h3>
+                            <p class="feature-desc">Cek plagiasi tanpa khawatir terkena Repository dengan pilihan
+                                paketan ataupun satuan</p>
+                            <a href="https://snicekplagiasi.base44.app/" target="_blank" class="feature-link">Pelajari
+                                lebih
+                                lanjut</a>
+                        </div>
+                    </div>
+                    <!-- Feature Card 2 - TODOIT -->
+                    <div class="feature-card">
+                        <div class="feature-screenshot">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/688a42916670b89e7b51038c/de7e35572_logo.png"
+                                alt="TODOIT App">
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-app-badge">
+                                <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/688a42916670b89e7b51038c/de7e35572_logo.png"
+                                    alt="TODOIT" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                                <span>TODOIT</span>
+                            </div>
+                            <h3 class="feature-title">Atur keuangan dengan AI assistant</h3>
+                            <p class="feature-desc">Finance manager lengkap dengan AI assistant untuk tracking
+                                pengeluaran, budgeting, dan to-do list modern.</p>
+                            <a href="https://todoit.snishop.com/" target="_blank" class="feature-link">Pelajari lebih
+                                lanjut</a>
+                        </div>
+                    </div>
+
+                    <!-- Feature Card 3 - BudgyAI -->
+                    <div class="feature-card">
+                        <div class="feature-screenshot">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/cae5a7a92_logo.png"
+                                alt="BudgyAI App">
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-app-badge">
+                                <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/cae5a7a92_logo.png"
+                                    alt="BudgyAI" onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                                <span>BudgyAI</span>
+                            </div>
+                            <h3 class="feature-title">Perencanaan anggaran cerdas dengan AI</h3>
+                            <p class="feature-desc">AI assistant yang membantu analisis pengeluaran dan memberikan
+                                rekomendasi budget untuk keuangan Anda.</p>
+                            <a href="https://budgyai.vercel.app/" target="_blank" class="feature-link">Pelajari lebih
+                                lanjut</a>
+                        </div>
+                    </div>
+
+                    <!-- Feature Card 4 - FormEase -->
+                    <div class="feature-card">
+                        <div class="feature-screenshot">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/e4985649a_logo.png"
+                                alt="FormEase App">
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-app-badge">
+                                <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/e4985649a_logo.png"
+                                    alt="FormEase"
+                                    onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                                <span>FormEase</span>
+                            </div>
+                            <h3 class="feature-title">Buat formulir profesional dengan mudah</h3>
+                            <p class="feature-desc">Platform pembuatan formulir online dengan analisis data otomatis dan
+                                template siap pakai.</p>
+                            <a href="https://app--form-ease-d76c872b.base44.app" target="_blank"
+                                class="feature-link">Pelajari lebih lanjut</a>
+                        </div>
+                    </div>
+
+                    <!-- Feature Card 5 - AutoInvoice -->
+                    <div class="feature-card">
+                        <div class="feature-screenshot">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/50941d487_logo.png"
+                                alt="AutoInvoice App">
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-app-badge">
+                                <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/50941d487_logo.png"
+                                    alt="AutoInvoice"
+                                    onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                                <span>AutoInvoice</span>
+                            </div>
+                            <h3 class="feature-title">Invoice otomatis untuk bisnis Anda</h3>
+                            <p class="feature-desc">Sistem invoice dengan template profesional, reminder pembayaran
+                                otomatis, dan integrasi pembayaran.</p>
+                            <a href="https://autoinvoiceai.base44.app/" target="_blank" class="feature-link">Pelajari
+                                lebih lanjut</a>
+                        </div>
+                    </div>
+
+                    <!-- Feature Card 6 - StudeeAI -->
+                    <div class="feature-card">
+                        <div class="feature-screenshot">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/45029a465_logo.png"
+                                alt="StudeeAI App">
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-app-badge">
+                                <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/45029a465_logo.png"
+                                    alt="StudeeAI"
+                                    onerror="this.src='https://i.ibb.co.com/MGVPZtv/20230722-162429.png'">
+                                <span>StudeeAI</span>
+                            </div>
+                            <h3 class="feature-title">Belajar lebih cerdas dengan AI</h3>
+                            <p class="feature-desc">Platform belajar berbasis AI yang membantu mengatur jadwal dan
+                                menyusun catatan belajar.</p>
+                            <a href="https://studeeai.base44.app/" target="_blank" class="feature-link">Pelajari lebih
+                                lanjut</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Buttons (Desktop) -->
+                <button class="feature-nav-btn prev" aria-label="Previous Slide">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+                    </svg>
+                </button>
+                <button class="feature-nav-btn next" aria-label="Next Slide">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+                    </svg>
+                </button>
+                <div class="carousel-dots" id="carouselDots">
+                    <button class="carousel-dot active" data-index="0"></button>
+                    <button class="carousel-dot" data-index="1"></button>
+                    <button class="carousel-dot" data-index="2"></button>
+                    <button class="carousel-dot" data-index="3"></button>
+                    <button class="carousel-dot" data-index="4"></button>
+                    <button class="carousel-dot" data-index="5"></button>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="layanan.html" class="btn btn-primary btn-lg">Jelajahi Semua Aplikasi →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section bg-surface" id="layanan">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="fade-in">Semua yang Anda Butuhkan, dalam Satu Platform</h2>
+                <p class="fade-in" style="max-width: 600px; margin: 0 auto;">
+                    Dari layanan edukasi hingga solusi bisnis digital, SNISHOP.ID menyediakan semua yang Anda butuhkan.
+                </p>
+            </div>
+
+            <div class="grid grid-3 stagger mt-4">
+                <!-- Edukasi Card -->
+                <div class="card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="#4285F4" width="48" height="48">
+                            <path d="M12 3L1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z" />
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Layanan Edukasi</h3>
+                    <p class="card-text">Cek Turnitin, Parafrase Manual, dan konsultasi akademik profesional untuk
+                        kebutuhan pendidikan Anda.</p>
+                    <a href="layanan.html#edukasi" class="btn btn-text">Pelajari Lebih Lanjut →</a>
+                </div>
+
+                <!-- Digital Services Card -->
+                <div class="card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="#EA4335" width="48" height="48">
+                            <path
+                                d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z" />
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Aplikasi Premium</h3>
+                    <p class="card-text">ChatGPT Plus, Canva Pro, Zoom Premium, Microsoft 365, dan berbagai aplikasi
+                        produktivitas lainnya.</p>
+                    <a href="layanan.html#aplikasi" class="btn btn-text">Pelajari Lebih Lanjut →</a>
+                </div>
+
+                <!-- IT Services Card -->
+                <div class="card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="#34A853" width="48" height="48">
+                            <path
+                                d="M20 18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z" />
+                        </svg>
+                    </div>
+                    <h3 class="card-title">IT Services</h3>
+                    <p class="card-text">Web Development, Hosting, Domain, dan solusi IT profesional untuk bisnis Anda.
+                    </p>
+                    <a href="layanan.html#it" class="btn btn-text">Pelajari Lebih Lanjut →</a>
+                </div>
+
+                <!-- PPOB Card -->
+                <div class="card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="#FBBC04" width="48" height="48">
+                            <path
+                                d="M17 1H7c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm0 18H7V5h10v14z" />
+                        </svg>
+                    </div>
+                    <h3 class="card-title">PPOB & Tagihan</h3>
+                    <p class="card-text">Bayar pulsa, paket data, token PLN, BPJS, dan berbagai tagihan lainnya dengan
+                        mudah.</p>
+                    <a href="layanan.html#ppob" class="btn btn-text">Pelajari Lebih Lanjut →</a>
+                </div>
+
+                <!-- Topup Game Card -->
+                <div class="card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="#9334E6" width="48" height="48">
+                            <path
+                                d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4-3c-.83 0-1.5-.67-1.5-1.5S18.67 9 19.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" />
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Topup Game</h3>
+                    <p class="card-text">Voucher game untuk Mobile Legends, Free Fire, PUBG, Genshin Impact, dan game
+                        populer lainnya.</p>
+                    <a href="layanan.html#game" class="btn btn-text">Pelajari Lebih Lanjut →</a>
+                </div>
+
+                <!-- Partnership Card -->
+                <div class="card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="#FF7700" width="48" height="48">
+                            <path
+                                d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" />
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Program Kemitraan</h3>
+                    <p class="card-text">Bergabung sebagai Reseller atau Affiliate dan dapatkan penghasilan dari setiap
+                        transaksi.</p>
+                    <a href="reseller.html" class="btn btn-text">Pelajari Lebih Lanjut →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="section bg-surface">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="fade-in">Mengapa Memilih SNISHOP.ID?</h2>
+            </div>
+
+            <div class="grid grid-4 stagger mt-4">
+                <div class="card text-center">
+                    <div class="card-icon" style="margin: 0 auto var(--space-md);">
+                        <svg viewBox="0 0 24 24" fill="#34A853" width="48" height="48">
+                            <path
+                                d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" />
+                        </svg>
+                    </div>
+                    <h4>Terpercaya</h4>
+                    <p class="card-text">Ribuan pelanggan telah mempercayai layanan kami sejak 2020.</p>
+                </div>
+
+                <div class="card text-center">
+                    <div class="card-icon" style="margin: 0 auto var(--space-md);">
+                        <svg viewBox="0 0 24 24" fill="#4285F4" width="48" height="48">
+                            <path
+                                d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z" />
+                        </svg>
+                    </div>
+                    <h4>Proses Cepat</h4>
+                    <p class="card-text">Layanan diproses dalam hitungan menit, bukan jam atau hari.</p>
+                </div>
+
+                <div class="card text-center">
+                    <div class="card-icon" style="margin: 0 auto var(--space-md);">
+                        <svg viewBox="0 0 24 24" fill="#FBBC04" width="48" height="48">
+                            <path
+                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                        </svg>
+                    </div>
+                    <h4>Kualitas Premium</h4>
+                    <p class="card-text">Hanya menyediakan layanan berkualitas tinggi dari provider terpercaya.</p>
+                </div>
+
+                <div class="card text-center">
+                    <div class="card-icon" style="margin: 0 auto var(--space-md);">
+                        <svg viewBox="0 0 24 24" fill="#EA4335" width="48" height="48">
+                            <path
+                                d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z" />
+                        </svg>
+                    </div>
+                    <h4>Support 24/7</h4>
+                    <p class="card-text">Tim customer service siap membantu Anda kapan saja, di mana saja.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Services - Stacking Cards Section -->
+    <section class="stacking-section section-reveal" id="featured-services">
+        <div class="container">
+            <div class="stacking-section-header">
+                <h2 class="gradient-text reveal-item">Layanan Unggulan</h2>
+                <p class="reveal-item">Solusi digital terpercaya untuk kebutuhan Anda</p>
+            </div>
+
+            <div class="stacking-cards-container">
+                <div class="stacking-cards-sticky">
+                    <!-- Card 1 - Turnitin -->
+                    <div class="stacking-card" data-index="01">
+                        <div class="stacking-card-header">
+                            <div class="stacking-card-icon blue">📚</div>
+                            <div class="stacking-card-info">
+                                <h3 class="stacking-card-title">Cek Turnitin Premium</h3>
+                                <div class="stacking-card-price">Mulai Rp 9.000/cek</div>
+                            </div>
+                        </div>
+
+                        <div class="stacking-card-body">
+                            <div class="stacking-card-content">
+                                <p class="stacking-card-desc">Layanan cek plagiarisme terpercaya untuk skripsi, tesis,
+                                    jurnal akademik, dan karya ilmiah lainnya. Menggunakan akun Turnitin Premium
+                                    Instructor dengan database internasional untuk hasil yang akurat dan terpercaya.</p>
+
+                                <ul class="stacking-card-features">
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Hasil similarity akurat 100%</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Laporan PDF lengkap</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Deteksi AI tersedia (GPT, etc)</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Proses cepat 1-24 jam</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Database internasional</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Garansi revisi jika ada kendala</li>
+                                </ul>
+
+                                <div class="stacking-card-cta">
+                                    <a href="https://snicekplagiasi.base44.app/" class="btn btn-primary"
+                                        target="_blank">Order via Website</a>
+                                    <a href="https://wa.me/6285185151356?text=Halo,%20saya%20mau%20order%20Cek%20Turnitin"
+                                        class="btn btn-secondary" target="_blank">Order via WhatsApp</a>
+                                </div>
+                            </div>
+
+                            <div class="stacking-card-pricing-panel">
+                                <h4>💰 Daftar Harga</h4>
+                                <div class="pricing-table">
+                                    <div class="pricing-row">
+                                        <span class="label">1x Cek Plagiasi</span>
+                                        <span class="price">Rp 9.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">3x Cek Plagiasi</span>
+                                        <span class="price">Rp 25.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">5x Cek Plagiasi</span>
+                                        <span class="price">Rp 40.000</span>
+                                    </div>
+                                    <div class="pricing-row highlight">
+                                        <span class="label">10x Cek Plagiasi</span>
+                                        <span class="price">Rp 81.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">Cek AI Detection</span>
+                                        <span class="price">Rp 35.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">Cek + Parafrase AI</span>
+                                        <span class="price">Rp 50.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 - Cek Turnitin AI -->
+                    <div class="stacking-card" data-index="02">
+                        <div class="stacking-card-header">
+                            <div class="stacking-card-icon purple">🤖</div>
+                            <div class="stacking-card-info">
+                                <h3 class="stacking-card-title">Cek Turnitin AI Detection</h3>
+                                <div class="stacking-card-price">Mulai Rp 35.000/cek</div>
+                            </div>
+                        </div>
+
+                        <div class="stacking-card-body">
+                            <div class="stacking-card-content">
+                                <p class="stacking-card-desc">Layanan pengecekan konten AI pada dokumen menggunakan
+                                    fitur AI Detection dari Turnitin. Mendeteksi apakah tulisan dihasilkan oleh AI
+                                    seperti ChatGPT, Claude, atau AI lainnya.</p>
+
+                                <ul class="stacking-card-features">
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Deteksi konten AI (ChatGPT, Claude, dll)</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Akurasi tinggi dari Turnitin</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Laporan PDF lengkap</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Proses cepat 1-24 jam</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Detail persentase AI per paragraf</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Garansi hasil akurat</li>
+                                </ul>
+
+                                <div class="stacking-card-cta">
+                                    <a href="https://snicekplagiasi.base44.app/" class="btn btn-primary"
+                                        target="_blank">Order via Website</a>
+                                    <a href="https://wa.me/6285185151356?text=Halo,%20saya%20mau%20order%20Cek%20Turnitin%20AI"
+                                        class="btn btn-secondary" target="_blank">Order via WhatsApp</a>
+                                </div>
+                            </div>
+
+                            <div class="stacking-card-pricing-panel">
+                                <h4>🤖 Harga Cek AI Turnitin</h4>
+                                <div class="pricing-table">
+                                    <div class="pricing-row">
+                                        <span class="label">1x Cek AI</span>
+                                        <span class="price">Rp 35.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">3x Cek AI</span>
+                                        <span class="price">Rp 90.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">6x Cek AI</span>
+                                        <span class="price">Rp 190.000</span>
+                                    </div>
+                                    <div class="pricing-row highlight">
+                                        <span class="label">10x Cek AI (Hemat!)</span>
+                                        <span class="price">Rp 330.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 - Cek Plagiasi GPT Zero -->
+                    <div class="stacking-card" data-index="03">
+                        <div class="stacking-card-header">
+                            <div class="stacking-card-icon green">🔍</div>
+                            <div class="stacking-card-info">
+                                <h3 class="stacking-card-title">Cek Plagiasi GPT Zero</h3>
+                                <div class="stacking-card-price">Mulai Rp 15.000/cek</div>
+                            </div>
+                        </div>
+
+                        <div class="stacking-card-body">
+                            <div class="stacking-card-content">
+                                <p class="stacking-card-desc">Layanan cek konten AI menggunakan GPT Zero atau Zero GPT.
+                                    Alternatif lebih terjangkau untuk mendeteksi tulisan yang dihasilkan AI dengan
+                                    akurasi baik.</p>
+
+                                <ul class="stacking-card-features">
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Deteksi AI dengan GPT Zero</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Harga lebih terjangkau</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Laporan hasil lengkap</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Proses cepat</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Akurasi tinggi</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Cocok untuk mahasiswa</li>
+                                </ul>
+
+                                <div class="stacking-card-cta">
+                                    <a href="https://snicekplagiasi.base44.app/" class="btn btn-primary"
+                                        target="_blank">Order via Website</a>
+                                    <a href="https://wa.me/6285185151356?text=Halo,%20saya%20mau%20order%20Cek%20GPT%20Zero"
+                                        class="btn btn-secondary" target="_blank">Order via WhatsApp</a>
+                                </div>
+                            </div>
+
+                            <div class="stacking-card-pricing-panel">
+                                <h4>🔍 Harga Cek GPT Zero</h4>
+                                <div class="pricing-table">
+                                    <div class="pricing-row">
+                                        <span class="label">1x Cek AI</span>
+                                        <span class="price">Rp 15.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">3x Cek AI</span>
+                                        <span class="price">Rp 35.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">6x Cek AI</span>
+                                        <span class="price">Rp 65.000</span>
+                                    </div>
+                                    <div class="pricing-row highlight">
+                                        <span class="label">10x Cek AI (Hemat!)</span>
+                                        <span class="price">Rp 120.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 - Canva Pro -->
+                    <div class="stacking-card" data-index="02">
+                        <div class="stacking-card-header">
+                            <div class="stacking-card-icon red">🎨</div>
+                            <div class="stacking-card-info">
+                                <h3 class="stacking-card-title">Canva Pro</h3>
+                                <div class="stacking-card-price">Mulai Rp 35.000/bulan</div>
+                            </div>
+                        </div>
+
+                        <div class="stacking-card-body">
+                            <div class="stacking-card-content">
+                                <p class="stacking-card-desc">Desain profesional tanpa batas dengan akses penuh ke
+                                    jutaan template, elemen premium, foto, video, dan audio berkualitas tinggi.
+                                    Dilengkapi fitur AI canggih seperti Magic Design dan Background Remover.</p>
+
+                                <ul class="stacking-card-features">
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>100+ Juta template premium</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Magic AI Tools (Design, Write, Eraser)</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Background Remover otomatis</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Brand Kit untuk konsistensi</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Cloud storage 1TB</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Export tanpa watermark</li>
+                                </ul>
+
+                                <div class="stacking-card-cta">
+                                    <a href="https://snidesain.snishop.com/" class="btn btn-primary"
+                                        target="_blank">Order Sekarang</a>
+                                    <a href="layanan.html#canva" class="btn btn-secondary">Lihat Detail</a>
+                                </div>
+                            </div>
+
+                            <div class="stacking-card-pricing-panel">
+                                <h4>💰 Paket Berlangganan</h4>
+                                <div class="pricing-table">
+                                    <div class="pricing-row">
+                                        <span class="label">1 Bulan</span>
+                                        <span class="price">Rp 35.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">2 Bulan (Hemat Rp 5K)</span>
+                                        <span class="price">Rp 65.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">6 Bulan (Hemat Rp 40K)</span>
+                                        <span class="price">Rp 170.000</span>
+                                    </div>
+                                    <div class="pricing-row highlight">
+                                        <span class="label">1 Tahun (Hemat Rp 120K)</span>
+                                        <span class="price">Rp 300.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 - Netflix -->
+                    <div class="stacking-card" data-index="03">
+                        <div class="stacking-card-header">
+                            <div class="stacking-card-icon purple">🎬</div>
+                            <div class="stacking-card-info">
+                                <h3 class="stacking-card-title">Netflix Premium</h3>
+                                <div class="stacking-card-price">Mulai Rp 6.000/6jam</div>
+                            </div>
+                        </div>
+
+                        <div class="stacking-card-body">
+                            <div class="stacking-card-content">
+                                <p class="stacking-card-desc">Nikmati streaming film dan series tanpa batas dengan
+                                    kualitas Ultra HD 4K dan Dolby Atmos. Tersedia pilihan shared account dengan private
+                                    profile hingga family plan lengkap.</p>
+
+                                <ul class="stacking-card-features">
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Kualitas Ultra HD 4K + Dolby Atmos</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Private profile (PIN protected)</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Akses di TV, Laptop, HP, Tablet</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Download offline tersedia</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Subtitle & dubbing Indonesia</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Garansi akun aktif selama periode</li>
+                                </ul>
+
+                                <div class="stacking-card-cta">
+                                    <a href="https://sninonton.snishop.com/" class="btn btn-primary"
+                                        target="_blank">Order Sekarang</a>
+                                    <a href="layanan.html#netflix" class="btn btn-secondary">Lihat Detail</a>
+                                </div>
+                            </div>
+
+                            <div class="stacking-card-pricing-panel">
+                                <h4>💰 Paket Harga</h4>
+                                <div class="pricing-table">
+                                    <div class="pricing-row">
+                                        <span class="label">6 Jam</span>
+                                        <span class="price">Rp 6.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">1 Hari</span>
+                                        <span class="price">Rp 9.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">1 Minggu</span>
+                                        <span class="price">Rp 28.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">2 Minggu</span>
+                                        <span class="price">Rp 40.000</span>
+                                    </div>
+                                    <div class="pricing-row highlight">
+                                        <span class="label">1 Bulan (Semua Device)</span>
+                                        <span class="price">Rp 85.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">1 Bulan Private Profile</span>
+                                        <span class="price">Rp 95.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 - Zoom Pro -->
+                    <div class="stacking-card" data-index="04">
+                        <div class="stacking-card-header">
+                            <div class="stacking-card-icon green">📹</div>
+                            <div class="stacking-card-info">
+                                <h3 class="stacking-card-title">Sewa Zoom Pro</h3>
+                                <div class="stacking-card-price">Mulai Rp 4.000/sesi</div>
+                            </div>
+                        </div>
+
+                        <div class="stacking-card-body">
+                            <div class="stacking-card-content">
+                                <p class="stacking-card-desc">Sewa akun Zoom Meeting Pro dan Webinar untuk meeting
+                                    profesional dengan kapasitas besar hingga 1000 peserta. Solusi ideal untuk rapat
+                                    online, seminar, kuliah daring, dan sidang skripsi.</p>
+
+                                <ul class="stacking-card-features">
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Kapasitas hingga 1000 peserta</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Cloud recording unlimited</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Breakout rooms tersedia</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Live streaming (YouTube/FB)</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Durasi meeting unlimited</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Polling & Q&A interaktif</li>
+                                </ul>
+
+                                <div class="stacking-card-cta">
+                                    <a href="https://snijadwalin.snishop.com/" class="btn btn-primary"
+                                        target="_blank">Lihat Harga</a>
+                                    <a href="layanan.html#zoom" class="btn btn-secondary">Lihat Detail</a>
+                                </div>
+                            </div>
+
+                            <div class="stacking-card-pricing-panel">
+                                <h4>💰 Paket Harga Zoom</h4>
+                                <div class="pricing-table">
+                                    <div class="pricing-row">
+                                        <span class="label">100 Peserta - 1 Jam</span>
+                                        <span class="price">Rp 4.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">100 Peserta - 2 Jam</span>
+                                        <span class="price">Rp 5.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">100 Peserta - 1 Hari</span>
+                                        <span class="price">Rp 15.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">300 Peserta - 6 Jam</span>
+                                        <span class="price">Rp 25.000</span>
+                                    </div>
+                                    <div class="pricing-row highlight">
+                                        <span class="label">500 Peserta - 1 Hari</span>
+                                        <span class="price">Rp 80.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">1000 Peserta - 1 Hari</span>
+                                        <span class="price">Rp 125.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 - CapCut Pro -->
+                    <div class="stacking-card" data-index="05">
+                        <div class="stacking-card-header">
+                            <div class="stacking-card-icon purple">🎬</div>
+                            <div class="stacking-card-info">
+                                <h3 class="stacking-card-title">CapCut Pro</h3>
+                                <div class="stacking-card-price">Mulai Rp 35.000/bulan</div>
+                            </div>
+                        </div>
+
+                        <div class="stacking-card-body">
+                            <div class="stacking-card-content">
+                                <p class="stacking-card-desc">Aplikasi edit video profesional dengan fitur lengkap. Akun
+                                    resmi CapCut tanpa watermark, efek & filter premium, musik lengkap, dan export video
+                                    hingga 4K.</p>
+
+                                <ul class="stacking-card-features">
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Akun resmi CapCut</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Tanpa watermark</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Efek & filter premium</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Musik & sound effect lengkap</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Export video hingga 4K</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>1 akun login 1 device</li>
+                                </ul>
+
+                                <div class="stacking-card-cta">
+                                    <a href="https://wa.me/6285185151356?text=Halo,%20saya%20mau%20order%20CapCut%20Pro"
+                                        class="btn btn-primary" target="_blank">Order Sekarang</a>
+                                    <a href="layanan.html#capcut" class="btn btn-secondary">Lihat Detail</a>
+                                </div>
+                            </div>
+
+                            <div class="stacking-card-pricing-panel">
+                                <h4>💰 Paket Berlangganan</h4>
+                                <div class="pricing-table">
+                                    <div class="pricing-row">
+                                        <span class="label">1 Bulan</span>
+                                        <span class="price">Rp 35.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">3 Bulan (Promo)</span>
+                                        <span class="price">Rp 99.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">6 Bulan (Promo)</span>
+                                        <span class="price">Rp 192.000</span>
+                                    </div>
+                                    <div class="pricing-row highlight">
+                                        <span class="label">12 Bulan (Promo)</span>
+                                        <span class="price">Rp 360.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 - TopUp Game -->
+                    <div class="stacking-card" data-index="06">
+                        <div class="stacking-card-header">
+                            <div class="stacking-card-icon orange">🎮</div>
+                            <div class="stacking-card-info">
+                                <h3 class="stacking-card-title">TopUp Game</h3>
+                                <div class="stacking-card-price">Harga Termurah!</div>
+                            </div>
+                        </div>
+
+                        <div class="stacking-card-body">
+                            <div class="stacking-card-content">
+                                <p class="stacking-card-desc">Top up diamond dan UC untuk 100+ game populer seperti
+                                    Mobile Legends, Free Fire, PUBG Mobile dan lainnya. Proses instan, aman, dan legal
+                                    dengan harga terbaik.</p>
+
+                                <ul class="stacking-card-features">
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Mobile Legends Bang Bang</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Free Fire & FF Max</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>PUBG Mobile & PUBG New State</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Genshin Impact</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Proses instan 1-5 menit</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>100+ game lainnya</li>
+                                </ul>
+
+                                <div class="stacking-card-cta">
+                                    <a href="https://www.snishopgame.biz.id/" class="btn btn-primary"
+                                        target="_blank">Order Sekarang</a>
+                                    <a href="layanan.html#topup" class="btn btn-secondary">Lihat Semua Game</a>
+                                </div>
+                            </div>
+
+                            <div class="stacking-card-pricing-panel">
+                                <h4>💎 Harga Mobile Legends</h4>
+                                <div class="pricing-table">
+                                    <div class="pricing-row highlight">
+                                        <span class="label">Weekly Diamond Pass</span>
+                                        <span class="price">Rp 29.272</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">128 Diamonds (117+11)</span>
+                                        <span class="price">Rp 36.214</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">148 Diamonds (134+14)</span>
+                                        <span class="price">Rp 41.388</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">170 Diamonds (154+16)</span>
+                                        <span class="price">Rp 46.920</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">Twilight Pass</span>
+                                        <span class="price">Rp 152.812</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 7 - Gemini Pro Advanced -->
+                    <div class="stacking-card" data-index="07">
+                        <div class="stacking-card-header">
+                            <div class="stacking-card-icon blue">🤖</div>
+                            <div class="stacking-card-info">
+                                <h3 class="stacking-card-title">Gemini Pro Advanced</h3>
+                                <div class="stacking-card-price">Mulai Rp 30.000/bulan</div>
+                            </div>
+                        </div>
+
+                        <div class="stacking-card-body">
+                            <div class="stacking-card-content">
+                                <p class="stacking-card-desc">AI Google terkuat dengan kemampuan reasoning canggih. Bisa
+                                    edit & run code Python, upload gambar, PDF, Google Docs. Bonus 2TB Google One
+                                    storage dan akses VEO3.</p>
+
+                                <ul class="stacking-card-features">
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Gemini Pro aktif 1 tahun</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Akun private (garansi)</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Bisa edit & run code Python</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Upload gambar, PDF, Google Docs</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Tambahan 2TB Google One</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Akses Open VEO3</li>
+                                </ul>
+
+                                <div class="stacking-card-cta">
+                                    <a href="https://wa.me/6285185151356?text=Halo,%20saya%20mau%20order%20Gemini%20Pro%20Advanced"
+                                        class="btn btn-primary" target="_blank">Order Sekarang</a>
+                                    <a href="layanan.html#gemini" class="btn btn-secondary">Lihat Detail</a>
+                                </div>
+                            </div>
+
+                            <div class="stacking-card-pricing-panel">
+                                <h4>💰 Paket Sharing (3 User)</h4>
+                                <div class="pricing-table">
+                                    <div class="pricing-row">
+                                        <span class="label">1 Bulan</span>
+                                        <span class="price">Rp 30.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">3 Bulan</span>
+                                        <span class="price">Rp 50.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">6 Bulan</span>
+                                        <span class="price">Rp 70.000</span>
+                                    </div>
+                                    <div class="pricing-row highlight">
+                                        <span class="label">12 Bulan</span>
+                                        <span class="price">Rp 100.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">Private 1 Bulan</span>
+                                        <span class="price">Rp 60.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">Private 12 Bulan</span>
+                                        <span class="price">Rp 170.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 8 - Microsoft 365 -->
+                    <div class="stacking-card" data-index="08">
+                        <div class="stacking-card-header">
+                            <div class="stacking-card-icon yellow">📊</div>
+                            <div class="stacking-card-info">
+                                <h3 class="stacking-card-title">Microsoft 365</h3>
+                                <div class="stacking-card-price">Rp 50.000 Lifetime</div>
+                            </div>
+                        </div>
+
+                        <div class="stacking-card-body">
+                            <div class="stacking-card-content">
+                                <p class="stacking-card-desc">Suite produktivitas lengkap dengan Word, Excel,
+                                    PowerPoint, Outlook, dan cloud storage OneDrive 1TB. Garansi lifetime hingga 3 tahun
+                                    dengan custom nama akun.</p>
+
+                                <ul class="stacking-card-features">
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Lifetime (maks 3 tahun)</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Install di 5 device</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>OneDrive 1TB storage</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Custom nama akun</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Word, Excel, PowerPoint</li>
+                                    <li><svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                        </svg>Outlook & Teams included</li>
+                                </ul>
+
+                                <div class="stacking-card-cta">
+                                    <a href="https://wa.me/6285185151356?text=Halo,%20saya%20mau%20Langganan%20Microsoft%20365"
+                                        class="btn btn-primary" target="_blank">Order Sekarang</a>
+                                    <a href="layanan.html#microsoft365" class="btn btn-secondary">Lihat Detail</a>
+                                </div>
+                            </div>
+
+                            <div class="stacking-card-pricing-panel">
+                                <h4>💰 Paket Microsoft 365</h4>
+                                <div class="pricing-table">
+                                    <div class="pricing-row highlight">
+                                        <span class="label">Lifetime (3 Tahun)</span>
+                                        <span class="price">Rp 50.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span class="label">Akun Custom Nama</span>
+                                        <span class="price">+Rp 10.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Preview Section -->
+    <section class="section bg-white" id="harga">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="fade-in">Harga Layanan SNISHOP</h2>
+                <p class="fade-in">Harga transparan per layanan, bayar sesuai kebutuhan Anda.</p>
+            </div>
+
+            <div class="pricing-grid stagger mt-4">
+                <!-- Edukasi -->
+                <div class="pricing-card">
+                    <h3 class="pricing-name">📚 Cek Turnitin</h3>
+                    <div class="pricing-price">Rp 9K</div>
+                    <div class="pricing-period">per 1 kali cek</div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                            <span>Basic: 1x Rp9K | 10x Rp81K</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                            <span>AI Check: 1x Rp35K | 10x Rp330K</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                            <span>Hasil lengkap + Laporan PDF</span>
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/6285185151356?text=Halo,%20saya%20mau%20order%20Cek%20Turnitin"
+                        class="btn btn-secondary" target="_blank">Order via WA</a>
+                </div>
+
+                <!-- Canva Pro -->
+                <div class="pricing-card featured">
+                    <h3 class="pricing-name">🎨 Canva Pro</h3>
+                    <div class="pricing-price">Rp 2K</div>
+                    <div class="pricing-period">per 1 jam akses</div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                            <span>1 Jam: Rp2K | 1 Hari: Rp5K</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                            <span>1 Bulan: Rp12K - Rp25K</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                            <span>Akses semua fitur premium</span>
+                        </li>
+                    </ul>
+                    <a href="https://snidesain.snishop.com/" class="btn btn-primary" target="_blank">Order Sekarang</a>
+                </div>
+
+                <!-- Netflix -->
+                <div class="pricing-card">
+                    <h3 class="pricing-name">🎬 Netflix Premium</h3>
+                    <div class="pricing-price">Rp 6K</div>
+                    <div class="pricing-period">per 6 jam</div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                            <span>6 Jam: Rp6K | 1 Hari: Rp9K</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                            <span>1 Minggu: Rp28K | 1 Bulan: Rp60K</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                            <span>Private Profile tersedia</span>
+                        </li>
+                    </ul>
+                    <a href="https://sninonton.snishop.com/" class="btn btn-secondary" target="_blank">Order
+                        Sekarang</a>
+                </div>
+
+                <!-- Zoom -->
+                <div class="pricing-card">
+                    <h3 class="pricing-name">📹 Sewa Zoom Pro</h3>
+                    <div class="pricing-price">Sewa</div>
+                    <div class="pricing-period">per jam / hari</div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                            <span>100-1000 Peserta</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                            <span>Live Stream, Cloud Recording</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                            <span>Breakout Room, Polling</span>
+                        </li>
+                    </ul>
+                    <a href="https://snijadwalin.snishop.com/" class="btn btn-secondary" target="_blank">Lihat Harga</a>
+                </div>
+            </div>
+
+            <!-- Quick Price Table -->
+            <div class="text-center mt-4 fade-in"
+                style="background: var(--surface); padding: var(--space-xl); border-radius: var(--radius-lg);">
+                <h3 style="margin-bottom: var(--space-lg); font-size: 1.25rem;">💰 Harga Cepat Layanan Lainnya</h3>
+                <div class="quick-price-grid">
+                    <div class="quick-price-item">
+                        <span class="quick-price-icon">📊</span>
+                        <span class="quick-price-name">Microsoft 365</span>
+                        <span class="quick-price-value">Rp 50K Lifetime</span>
+                    </div>
+                    <div class="quick-price-item">
+                        <span class="quick-price-icon">🤖</span>
+                        <span class="quick-price-name">ChatGPT Plus</span>
+                        <span class="quick-price-value">Rp 35K/bulan</span>
+                    </div>
+                    <div class="quick-price-item">
+                        <span class="quick-price-icon">🎵</span>
+                        <span class="quick-price-name">Spotify Premium</span>
+                        <span class="quick-price-value">Rp 15K/bulan</span>
+                    </div>
+                    <div class="quick-price-item">
+                        <span class="quick-price-icon">✂️</span>
+                        <span class="quick-price-name">CapCut Pro</span>
+                        <span class="quick-price-value">Rp 35K/bulan</span>
+                    </div>
+                    <div class="quick-price-item">
+                        <span class="quick-price-icon">🔍</span>
+                        <span class="quick-price-name">GPT Zero AI</span>
+                        <span class="quick-price-value">Rp 15K/cek</span>
+                    </div>
+                    <div class="quick-price-item">
+                        <span class="quick-price-icon">🖥️</span>
+                        <span class="quick-price-name">Web Hosting</span>
+                        <span class="quick-price-value">Rp 50K/tahun</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="layanan.html" class="btn btn-text">Lihat Semua Layanan & Harga →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section bg-primary" style="color: white;">
+        <div class="container text-center">
+            <h2 class="fade-in" style="color: white;">Siap Memulai?</h2>
+            <p class="fade-in"
+                style="max-width: 600px; margin: var(--space-md) auto var(--space-xl); color: rgba(255,255,255,0.9);">
+                Bergabunglah dengan ribuan pelanggan yang telah mempercayai SNISHOP.ID untuk kebutuhan digital mereka.
+            </p>
+            <div class="fade-in">
+                <a href="layanan.html" class="btn btn-lg" style="background: white; color: var(--primary);">Mulai
+                    Sekarang</a>
+                <a href="https://wa.me/6285185151356" class="btn btn-lg"
+                    style="background: transparent; color: white; border: 2px solid white; margin-left: var(--space-md);"
+                    target="_blank">Hubungi Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="kontak">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <img src="https://i.ibb.co.com/MGVPZtv/20230722-162429.png" alt="SNISHOP.ID">
+                        <span class="logo-text"></span>
+                    </a>
+                    <p>Platform SaaS terintegrasi untuk semua kebutuhan digital Anda. Solusi terpercaya dengan harga
+                        terjangkau.</p>
+                </div>
+
+                <!-- Layanan -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Layanan</h4>
+                    <div class="footer-links">
+                        <a href="layanan.html#edukasi">Layanan Edukasi</a>
+                        <a href="layanan.html#aplikasi">Aplikasi Premium</a>
+                        <a href="layanan.html#it">IT Services</a>
+                        <a href="blog/index.html">Blog & Artikel</a>
+                        <a href="layanan.html#ppob">PPOB & Tagihan</a>
+                        <a href="layanan.html#game">Topup Game</a>
+                    </div>
+                </div>
+
+                <!-- Perusahaan -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Perusahaan</h4>
+                    <div class="footer-links">
+                        <a href="tentang.html">Tentang Kami</a>
+                        <a href="harga.html">Harga</a>
+                        <a href="faq.html">FAQ</a>
+                        <a href="reseller.html">Reseller</a>
+                        <a href="affiliate.html">Affiliate</a>
+                    </div>
+                </div>
+
+                <!-- Legal -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Legal</h4>
+                    <div class="footer-links">
+                        <a href="privasi.html">Kebijakan Privasi</a>
+                        <a href="syarat.html">Syarat & Ketentuan</a>
+                        <a href="dukungan.html">Dukungan</a>
+                    </div>
+                </div>
+
+                <!-- Kontak -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Kontak</h4>
+                    <div class="footer-links">
+                        <a href="mailto:snishopsolusinetwork@gmail.com">📧 snishopsolusinetwork@gmail.com</a>
+                        <a href="https://wa.me/6285185151356" target="_blank">📱 +62 851-8515-1356</a>
+                    </div>
+
+                    <div class="social-links" style="margin-top: var(--space-md);">
+                        <a href="https://instagram.com/snishop.id" target="_blank" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                            </svg>
+                        </a>
+                        <a href="https://facebook.com/snishop.id" target="_blank" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/6285185151356" target="_blank" aria-label="WhatsApp">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <!-- Footer Hero Text with Cursor-Following Glow -->
+                <div class="footer-hero-text" id="footer-hero-text">
+                    <span class="footer-hero-title">SNISHOP NETWORK</span>
+                    <div class="footer-hero-glow" id="footer-hero-glow"></div>
+                </div>
+
+                <div class="footer-copyright">
+                    <p>© 2025 SNISHOP.ID. Hak Cipta Dilindungi.</p>
+                    <p>Dibuat dengan ❤️ di Indonesia</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/6285185151356?text=Halo%20SNISHOP.ID%2C%20saya%20ingin%20bertanya%20tentang%20layanan."
+        class="whatsapp-float" target="_blank" aria-label="Chat WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" />
+        </svg>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

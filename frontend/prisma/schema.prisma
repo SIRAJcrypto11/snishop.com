@@ -1,0 +1,122 @@
+// schema.prisma
+datasource db {
+  provider = "sqlite" // Change to "postgresql" for Vercel
+  url      = "file:./dev.db" // Hardcoded for now due to Env var issues
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// --- USER & AUTH ---
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  password      String    // Hashed
+  image         String?
+  
+  // Wallet & Assets
+  walletAddress String?   @unique
+  snishopBalance Float    @default(0) // Synced from Blockchain
+  platformCredits Float   @default(0) // Web2 Saldo
+  
+  // Hierarchy
+  membershipTier String   @default("BRONZE") // BRONZE, SILVER, GOLD, PLATINUM, DIAMOND
+  
+  // RBAC
+  isOwner       Boolean   @default(false) // GOD MODE
+  adminRoleId   String?
+  adminRole     AdminRole? @relation(fields: [adminRoleId], references: [id])
+  
+  // Financials
+  commissionBalance Float @default(0) // Earnings (for Admins)
+  totalSpent        Float @default(0)
+  
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  
+  orders        Order[]   @relation("CustomerOrders")
+  handledOrders Order[]   @relation("AdminHandler")
+  logs          Log[]     
+}
+
+// --- DYNAMIC ROLES ---
+model AdminRole {
+  id              String    @id @default(cuid())
+  name            String    @unique // e.g., "Finance Manager", "Turnitin Admin"
+  description     String?
+  
+  // Granular Permissions
+  canManageUsers    Boolean @default(false) // Promote/Ban
+  canManageServices Boolean @default(false) // Edit Prices
+  canViewReports    Boolean @default(false) // Revenue Stats
+  canProcessOrders  Boolean @default(false) // Handle Transactions
+  canManagefinance  Boolean @default(false) // Withdraw/Topup
+  
+  users           User[]
+}
+
+// --- SERVICES & COMMISSIONS ---
+model Service {
+  id              String    @id @default(cuid())
+  name            String
+  slug            String    @unique // e.g., "turnitin-check"
+  description     String
+  basePrice       Float
+  category        String    // SOFTWARE, DESIGN, WRITING
+  
+  // Commission Logic
+  adminCommissionType String @default("FIXED") // FIXED, PERCENTAGE
+  adminCommission     Float  // Amount earned by Handler
+  
+  isActive        Boolean   @default(true)
+  
+  orders          Order[]
+}
+
+// --- TRANSACTIONS ---
+model Order {
+  id              String    @id @default(cuid())
+  userId          String
+  serviceId       String
+  
+  // State Machine
+  status          String    @default("PENDING_PAYMENT") 
+  // PENDING_PAYMENT -> PAID (Pending Process) -> PROCESSING -> COMPLETED -> CANCELLED
+  
+  // Financials
+  originalPrice   Float
+  discountApplied Float     @default(0)
+  finalPrice      Float
+  paymentMethod   String    // SALDO, TOKEN, QRIS
+  
+  // Evidence
+  paymentProof    String?   // URL
+  userFiles       String?   // JSON: ["url1", "url2"]
+  resultFiles     String?   // JSON: ["url1"]
+  adminNotes      String?
+  
+  // Admin Handling
+  handledById     String?
+  commissionPaid  Float     @default(0)
+  
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  
+  user            User      @relation("CustomerOrders", fields: [userId], references: [id])
+  handler         User?     @relation("AdminHandler", fields: [handledById], references: [id])
+  service         Service   @relation(fields: [serviceId], references: [id])
+}
+
+// --- AUDIT LOGS ---
+model Log {
+  id        String   @id @default(cuid())
+  userId    String
+  action    String   // "LOGIN", "ORDER_CREATE", "WITHDRAW"
+  details   String?
+  ip        String?
+  createdAt DateTime @default(now())
+  
+  user      User     @relation(fields: [userId], references: [id])
+}

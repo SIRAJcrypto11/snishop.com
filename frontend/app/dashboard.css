@@ -1,0 +1,72 @@
+/* ================================================
+   SNISHOP DASHBOARD - Light Theme Design System
+   ================================================ */
+
+:root {
+    /* Dashboard-Specific Light Theme Tokens (Matching landing.css) */
+    --bg-dashboard: #F0F2F5;
+    /* Light Gray Background */
+    --bg-surface: #FFFFFF;
+    /* White Cards/Sidebar */
+    --bg-hover: #F8F9FA;
+    /* Hover State */
+
+    --border-dashboard: #DADCE0;
+    --border-highlight: #E8EAED;
+
+    /* Text Colors */
+    --text-primary-d: #202124;
+    /* Almost Black */
+    --text-secondary-d: #5F6368;
+    /* Gray 600 */
+    --text-muted: #80868B;
+    /* Gray 500 */
+
+    /* Brand Accents */
+    --accent-blue: #1A73E8;
+    /* Google Blue */
+    --accent-blue-dim: rgba(26, 115, 232, 0.1);
+    --accent-blue-hover: rgba(26, 115, 232, 0.05);
+
+    /* Semantic Colors */
+    --success: #34A853;
+    /* Google Green */
+    --success-bg: #E6F4EA;
+    --warning: #FBBC04;
+    /* Google Yellow */
+    --warning-bg: #FEF7E0;
+    --danger: #EA4335;
+    /* Google Red */
+    --danger-bg: #FCE8E6;
+
+    /* Shadows (Soft & Professional) */
+    --shadow-card: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    --shadow-hover: 0 1px 3px 0 rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
+}
+
+/* Base Dashboard Styles */
+body {
+    background-color: var(--bg-dashboard) !important;
+    color: var(--text-primary-d) !important;
+}
+
+/* Helper Classes */
+.bg-dashboard {
+    background-color: var(--bg-dashboard);
+}
+
+.bg-white {
+    background-color: var(--bg-surface);
+}
+
+.text-main {
+    color: var(--text-primary-d);
+}
+
+.text-sec {
+    color: var(--text-secondary-d);
+}
+
+.shadow-card {
+    box-shadow: var(--shadow-card);
+}
