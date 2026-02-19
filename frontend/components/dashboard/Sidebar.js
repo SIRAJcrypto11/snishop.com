@@ -41,15 +41,15 @@ export default function Sidebar({ isOpen = true, onClose }) {
     const NavItem = ({ icon: Icon, name, path, isActive: active }) => (
         <Link
             href={path}
-            className={`flex items-center gap-3 px-3 py-3 rounded-lg transition-all duration-200 group relative ${
+            className={`nav-item flex items-center gap-3 rounded-lg transition-all duration-200 group relative ${
                 active
-                    ? 'bg-gradient-to-r from-accent-primary/20 to-accent-secondary/20 text-accent-primary border border-accent-primary/30'
+                    ? 'nav-item active bg-primary-light text-primary font-semibold border-l-3 border-primary'
                     : 'text-text-secondary hover:text-text-primary hover:bg-surface-secondary'
             }`}
         >
-            <Icon size={20} className={active ? 'text-accent-primary' : 'text-text-tertiary group-hover:text-text-secondary transition-colors'} />
+            <Icon size={20} className={active ? 'text-primary' : 'text-text-muted group-hover:text-text-secondary transition-colors'} />
             <span className="font-medium flex-1">{name}</span>
-            {active && <ChevronRight size={16} className="text-accent-primary" />}
+            {active && <ChevronRight size={16} className="text-primary" />}
         </Link>
     );
 
@@ -58,19 +58,19 @@ export default function Sidebar({ isOpen = true, onClose }) {
             {/* Mobile Backdrop */}
             {isOpen && (
                 <div
-                    className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm md:hidden"
+                    className="fixed inset-0 z-40 bg-black/20 backdrop-blur-sm md:hidden"
                     onClick={onClose}
                 />
             )}
 
             {/* Sidebar */}
-            <aside className={`fixed left-0 top-0 h-screen w-[280px] bg-surface border-r border-border-default flex flex-col z-50 transition-transform duration-300 md:translate-x-0 ${
+            <aside className={`sidebar fixed left-0 top-0 h-screen w-[280px] bg-surface border-r border-border flex flex-col z-50 transition-transform duration-300 md:translate-x-0 ${
                 isOpen ? 'translate-x-0' : '-translate-x-full'
             }`}>
                 {/* Logo Section */}
-                <div className="p-6 border-b border-border-default flex items-center justify-between">
+                <div className="sidebar-header p-6 border-b border-border flex items-center justify-between">
                     <Link href="/" className="flex items-center gap-2 flex-1">
-                        <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-accent-primary to-accent-secondary flex items-center justify-center font-bold text-black">
+                        <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-info flex items-center justify-center font-bold text-white text-sm">
                             S
                         </div>
                         <span className="font-bold text-lg text-text-primary hidden sm:inline">SNISHOP</span>
@@ -88,7 +88,7 @@ export default function Sidebar({ isOpen = true, onClose }) {
                 <nav className="flex-1 p-6 space-y-8 overflow-y-auto">
                     {/* Customer Menu */}
                     <div className="space-y-2">
-                        <p className="px-3 text-xs font-bold text-text-tertiary uppercase tracking-wider mb-4">Menu</p>
+                        <p className="nav-label px-3 text-xs font-bold text-text-tertiary uppercase tracking-wider mb-4">Menu</p>
                         {customerItems.map((item) => (
                             <NavItem
                                 key={item.path}
@@ -103,7 +103,7 @@ export default function Sidebar({ isOpen = true, onClose }) {
                     {/* Admin/Owner Menu */}
                     {adminItems.length > 0 && (
                         <div className="space-y-2">
-                            <p className="px-3 text-xs font-bold text-text-tertiary uppercase tracking-wider mb-4">
+                            <p className="nav-label px-3 text-xs font-bold text-text-tertiary uppercase tracking-wider mb-4">
                                 {user?.isOwner ? 'Owner Panel' : 'Admin Workspace'}
                             </p>
                             {adminItems.map((item) => (
@@ -120,22 +120,22 @@ export default function Sidebar({ isOpen = true, onClose }) {
                 </nav>
 
                 {/* User Profile Section */}
-                <div className="p-6 border-t border-border-default space-y-4 bg-surface-secondary/50 backdrop-blur-sm">
-                    <div className="bg-surface border border-border-default rounded-lg p-4">
+                <div className="p-6 border-t border-border space-y-4 bg-surface-secondary/50">
+                    <div className="bg-surface border border-border rounded-lg p-4">
                         <div className="flex items-center gap-3">
-                            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-accent-secondary to-accent-tertiary flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
+                            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-info flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
                                 {user?.name?.charAt(0).toUpperCase() || 'U'}
                             </div>
                             <div className="overflow-hidden flex-1">
                                 <p className="text-sm font-bold text-text-primary truncate">{user?.name || 'User'}</p>
-                                <p className="text-xs text-accent-primary capitalize truncate font-medium">{user?.membershipTier || 'Member'}</p>
+                                <p className="text-xs text-primary capitalize truncate font-medium">{user?.membershipTier || 'Member'}</p>
                             </div>
                         </div>
                     </div>
 
                     <button
                         onClick={() => signOut({ callbackUrl: '/' })}
-                        className="w-full flex items-center justify-center gap-3 px-3 py-3 text-danger hover:bg-danger/10 rounded-lg transition-all duration-200 font-medium text-sm hover:border-danger/20 border border-transparent"
+                        className="w-full flex items-center justify-center gap-3 px-3 py-3 text-danger hover:bg-danger-light rounded-lg transition-all duration-200 font-medium text-sm border border-transparent hover:border-danger/20"
                     >
                         <LogOut size={18} />
                         <span>Sign Out</span>
