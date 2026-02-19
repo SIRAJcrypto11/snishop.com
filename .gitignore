@@ -24,3 +24,9 @@ typechain-types/
 frontend/build_log*.txt
 frontend/lint_output.txt
 frontend/.git
+
+# Lock files (use pnpm-lock.yaml only)
+package-lock.json
+frontend/package-lock.json
+yarn.lock
+frontend/yarn.lock
