@@ -7,22 +7,15 @@
   "author": "",
   "license": "ISC",
   "keywords": [],
-  "workspaces": [
-    "frontend"
-  ],
   "scripts": {
-    "dev": "cd frontend && npm run dev",
-    "build": "cd frontend && npm run build",
-    "start": "cd frontend && npm run start",
+    "dev": "pnpm -C frontend dev",
+    "build": "pnpm -C frontend build",
+    "start": "pnpm -C frontend start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.4.0",
-    "dotenv": "^17.3.1",
-    "lucide-react": "^0.574.0",
-    "next-auth": "^4.24.13",
-    "react": "^19.2.4",
-    "recharts": "^3.7.0"
+    "dotenv": "^17.3.1"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^4.0.0",
