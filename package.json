@@ -7,13 +7,10 @@
   "author": "",
   "license": "ISC",
   "keywords": [],
-  "workspaces": [
-    "frontend"
-  ],
   "scripts": {
-    "dev": "cd frontend && npm run dev",
-    "build": "cd frontend && npm run build",
-    "start": "cd frontend && npm run start",
+    "dev": "pnpm -C frontend dev",
+    "build": "pnpm -C frontend build",
+    "start": "pnpm -C frontend start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
