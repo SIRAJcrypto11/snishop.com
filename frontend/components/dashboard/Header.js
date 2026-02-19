@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-import { Menu, Wallet, User, Bell, CreditCard, LogOut, Settings, ChevronDown } from 'lucide-react';
+import { Menu, Wallet, User, Bell, CreditCard, LogOut, Settings, ChevronDown, Zap } from 'lucide-react';
 import { useSnishop } from '../../context/SnishopContext';
 import { useSession, signOut } from 'next-auth/react';
 
@@ -13,42 +13,42 @@ export default function Header({ toggleSidebar }) {
     const user = session?.user;
 
     return (
-        <header className="header sticky top-0 z-40 px-6 py-4 flex items-center justify-between">
+        <header className="header sticky top-0 z-40 px-6 py-4 flex items-center justify-between gap-4">
             <div className="flex items-center gap-4">
                 <button
-                    className="md:hidden p-2 text-text-muted hover:bg-surface-secondary rounded-lg transition-colors"
+                    className="md:hidden p-2.5 text-text-muted hover:bg-surface-secondary rounded-xl transition-all active:scale-95"
                     onClick={toggleSidebar}
                     aria-label="Toggle sidebar"
                 >
                     <Menu size={24} />
                 </button>
 
-                {/* Credits Display */}
-                <div className="hidden md:flex items-center gap-3 bg-primary-light border border-primary px-4 py-2.5 rounded-lg">
-                    <div className="w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-bold">
-                        C
+                {/* Premium Credits Badge */}
+                <div className="hidden md:flex items-center gap-3 gradient-green px-5 py-3 rounded-xl shadow-md hover:shadow-lg transition-all">
+                    <div className="w-8 h-8 rounded-full bg-white/20 backdrop-blur text-white flex items-center justify-center font-bold text-sm">
+                        <Zap size={18} />
                     </div>
                     <div className="flex flex-col leading-tight">
-                        <span className="text-xs text-primary font-semibold uppercase tracking-wider">Credits</span>
-                        <span className="text-sm font-bold text-primary">{platformSaldo.toLocaleString()}</span>
+                        <span className="text-xs font-bold uppercase tracking-wider opacity-90">Credits</span>
+                        <span className="text-base font-bold">{platformSaldo.toLocaleString()}</span>
                     </div>
                 </div>
             </div>
 
-            <div className="flex items-center gap-4">
-                {/* Mobile Credits Display */}
-                <div className="md:hidden flex items-center gap-2 bg-primary-light px-3 py-1.5 rounded-lg border border-primary">
-                    <span className="text-xs font-bold text-primary">{platformSaldo} Cr</span>
+            <div className="flex items-center gap-3 md:gap-5">
+                {/* Mobile Credits Badge */}
+                <div className="md:hidden flex items-center gap-2 gradient-green px-3 py-2 rounded-lg shadow-md">
+                    <span className="text-xs font-bold">{platformSaldo} Cr</span>
                 </div>
 
-                {/* Notification Button */}
+                {/* Notification Button - Premium */}
                 <button 
-                    className="p-2 text-text-muted hover:bg-surface-secondary rounded-lg transition-colors relative group"
+                    className="p-2.5 text-text-muted hover:bg-surface-secondary rounded-xl transition-all relative group"
                     aria-label="Notifications"
                 >
                     <Bell size={20} className="group-hover:text-primary transition-colors" />
                     {hasNotification && (
-                        <span className="absolute top-1.5 right-1.5 w-2.5 h-2.5 bg-danger rounded-full border 2px border-surface animate-pulse"></span>
+                        <span className="absolute top-1 right-1 w-3 h-3 bg-danger rounded-full border-2 border-white shadow-md animate-pulse-glow"></span>
                     )}
                 </button>
 
@@ -56,58 +56,62 @@ export default function Header({ toggleSidebar }) {
                     <button
                         onClick={connectWallet}
                         disabled={isConnecting}
-                        className="btn-primary flex items-center gap-2"
+                        className="gradient-blue-purple flex items-center gap-2 px-5 py-2.5 rounded-xl text-white font-bold text-sm uppercase tracking-wide shadow-md hover:shadow-lg transition-all active:scale-95 disabled:opacity-50"
                     >
-                        <Wallet size={16} />
-                        {isConnecting ? "Connecting..." : "Connect Wallet"}
+                        <Wallet size={18} />
+                        <span className="hidden sm:inline">{isConnecting ? "Connecting..." : "Connect Wallet"}</span>
                     </button>
                 ) : (
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-5">
                         {/* Token Balance - Desktop Only */}
-                        <div className="hidden md:flex flex-col items-end text-right">
-                            <span className="text-xs text-text-muted font-medium">Token Balance</span>
-                            <span className="text-sm font-bold text-primary">{parseFloat(balance).toFixed(2)} SNI</span>
+                        <div className="hidden lg:flex flex-col items-end text-right gap-1">
+                            <span className="text-xs text-text-muted font-bold uppercase tracking-wider">SNI Token</span>
+                            <span className="text-sm font-bold text-primary">{parseFloat(balance).toFixed(2)}</span>
                         </div>
 
-                        {/* User Profile Menu */}
+                        {/* User Profile Menu - Premium */}
                         <div className="relative">
                             <button
                                 onClick={() => setShowUserMenu(!showUserMenu)}
-                                className="flex items-center gap-2 bg-surface-secondary border border-border px-3 py-2 rounded-lg hover:bg-background hover:border-primary transition-colors group"
+                                className="flex items-center gap-2.5 bg-gradient-to-br from-primary to-indigo px-3.5 py-2.5 rounded-xl text-white font-bold transition-all hover:shadow-lg active:scale-95"
                                 aria-label="User menu"
                             >
-                                <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-info flex items-center justify-center text-white font-bold text-sm">
+                                <div className="w-8 h-8 rounded-lg bg-white/20 backdrop-blur flex items-center justify-center text-white font-bold text-sm">
                                     {user?.name?.charAt(0).toUpperCase() || 'U'}
                                 </div>
-                                <span className="text-sm font-medium text-text-primary hidden md:block">
-                                    {account.slice(0, 6)}...{account.slice(-4)}
-                                </span>
-                                <ChevronDown size={16} className={`text-text-muted transition-transform ${showUserMenu ? 'rotate-180' : ''}`} />
+                                <span className="hidden md:inline text-sm">{account?.slice(0, 6)}...{account?.slice(-4)}</span>
+                                <ChevronDown size={16} className={`transition-transform ${showUserMenu ? 'rotate-180' : ''}`} />
                             </button>
 
-                            {/* Dropdown Menu */}
+                            {/* Dropdown Menu - Premium */}
                             {showUserMenu && (
-                                <div className="absolute right-0 mt-2 w-56 bg-surface border border-border rounded-lg shadow-lg z-50 py-2 animate-fade-in">
-                                    <div className="px-4 py-3 border-b border-border-light">
-                                        <p className="text-sm font-semibold text-text-primary">{user?.name || 'User'}</p>
-                                        <p className="text-xs text-text-muted mt-1 break-all">{account}</p>
-                                        <span className="inline-block mt-2 text-xs px-2 py-1 bg-primary-light rounded text-primary font-semibold uppercase tracking-wide">
-                                            {user?.membershipTier || 'Member'}
-                                        </span>
+                                <div className="absolute right-0 mt-3 w-64 bg-white border border-border rounded-xl shadow-xl z-50 py-3 animate-fade-in">
+                                    <div className="px-5 py-4 border-b border-border-light">
+                                        <p className="text-sm font-bold text-text-primary">{user?.name || 'User'}</p>
+                                        <p className="text-xs text-text-muted mt-1 break-all font-mono">{account}</p>
+                                        <div className="flex items-center gap-2 mt-3">
+                                            <span className={`text-xs px-3 py-1.5 rounded-lg font-bold uppercase tracking-wide ${
+                                                user?.membershipTier === 'DIAMOND' ? 'badge-tier-diamond' :
+                                                user?.membershipTier === 'PLATINUM' ? 'badge-tier-platinum' :
+                                                'badge-tier-gold'
+                                            }`}>
+                                                {user?.membershipTier || 'Member'}
+                                            </span>
+                                        </div>
                                     </div>
 
-                                    <a href="/dashboard/wallet" className="flex items-center gap-3 px-4 py-2.5 text-text-secondary hover:text-primary hover:bg-surface-secondary transition-colors text-sm">
-                                        <Wallet size={16} />
-                                        <span>My Wallet</span>
+                                    <a href="/dashboard" className="flex items-center gap-3 px-5 py-3 text-text-secondary hover:text-primary hover:bg-primary-light transition-all text-sm font-medium">
+                                        <User size={18} />
+                                        <span>My Profile</span>
                                     </a>
 
-                                    <a href="/dashboard" className="flex items-center gap-3 px-4 py-2.5 text-text-secondary hover:text-primary hover:bg-surface-secondary transition-colors text-sm">
-                                        <User size={16} />
-                                        <span>Profile Settings</span>
+                                    <a href="/dashboard/wallet" className="flex items-center gap-3 px-5 py-3 text-text-secondary hover:text-primary hover:bg-primary-light transition-all text-sm font-medium">
+                                        <Wallet size={18} />
+                                        <span>Wallet</span>
                                     </a>
 
-                                    <button className="w-full flex items-center gap-3 px-4 py-2.5 text-text-secondary hover:text-primary hover:bg-surface-secondary transition-colors text-sm">
-                                        <Settings size={16} />
+                                    <button className="w-full flex items-center gap-3 px-5 py-3 text-text-secondary hover:text-primary hover:bg-primary-light transition-all text-sm font-medium">
+                                        <Settings size={18} />
                                         <span>Settings</span>
                                     </button>
 
@@ -115,9 +119,9 @@ export default function Header({ toggleSidebar }) {
 
                                     <button
                                         onClick={() => signOut({ callbackUrl: '/' })}
-                                        className="w-full flex items-center gap-3 px-4 py-2.5 text-danger hover:bg-danger-light transition-colors text-sm font-medium"
+                                        className="w-full flex items-center gap-3 px-5 py-3 text-danger hover:bg-danger-light transition-all text-sm font-bold uppercase tracking-wide"
                                     >
-                                        <LogOut size={16} />
+                                        <LogOut size={18} />
                                         <span>Sign Out</span>
                                     </button>
                                 </div>
