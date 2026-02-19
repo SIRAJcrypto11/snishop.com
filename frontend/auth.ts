@@ -10,8 +10,7 @@ const DEMO_USERS = [
     id: 'demo-owner-001',
     name: 'Admin SNISHOP',
     email: 'admin@snishop.com',
-    // Password: admin123
-    password: '$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj4oHqRVW.RK',
+    plainPassword: 'admin123',
     image: null,
     isOwner: true,
     membershipTier: 'PLATINUM',
@@ -26,8 +25,7 @@ const DEMO_USERS = [
     id: 'demo-user-002',
     name: 'User Demo',
     email: 'user@snishop.com',
-    // Password: admin123
-    password: '$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj4oHqRVW.RK',
+    plainPassword: 'admin123',
     image: null,
     isOwner: false,
     membershipTier: 'BRONZE',
@@ -74,7 +72,6 @@ export const { auth, signIn, signOut, handlers } = NextAuth({
 
         // Coba dari database dulu
         const dbUser = await getUserFromDB(email);
-
         if (dbUser) {
           const passwordsMatch = await bcrypt.compare(password, dbUser.password);
           if (passwordsMatch) return dbUser as any;
@@ -82,11 +79,11 @@ export const { auth, signIn, signOut, handlers } = NextAuth({
           return null;
         }
 
-        // Fallback ke demo users
+        // Fallback ke demo users dengan plain text comparison
         const demoUser = DEMO_USERS.find(u => u.email === email);
-        if (demoUser) {
-          const passwordsMatch = await bcrypt.compare(password, demoUser.password);
-          if (passwordsMatch) return demoUser as any;
+        if (demoUser && demoUser.plainPassword === password) {
+          const { plainPassword, ...userWithoutPassword } = demoUser;
+          return userWithoutPassword as any;
         }
 
         console.log('Invalid credentials');
