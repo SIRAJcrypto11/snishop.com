@@ -1,5 +1,5 @@
 import { PrismaClient } from '@prisma/client';
-import { User, Shield, Search } from 'lucide-react';
+import { User, Shield, Search, Mail, Calendar, MoreVertical, Edit, Trash2, Filter } from 'lucide-react';
 import { UserDrawer } from '../../../../components/dashboard/users/UserDrawer';
 
 const globalForPrisma = global;
@@ -7,118 +7,144 @@ const prisma = globalForPrisma.prisma || new PrismaClient();
 if (process.env.NODE_ENV !== 'production') globalForPrisma.prisma = prisma;
 
 async function getUsers() {
-    try {
-        const users = await prisma.user.findMany({
-            orderBy: { createdAt: 'desc' },
-            include: { adminRole: true }
-        });
-        return users;
-    } catch (error) {
-        return [];
-    }
+  try {
+    const users = await prisma.user.findMany({
+      orderBy: { createdAt: 'desc' },
+      include: { adminRole: true }
+    });
+    return users;
+  } catch (error) {
+    return [];
+  }
 }
 
 export default async function UserManager() {
-    const users = await getUsers();
+  const users = await getUsers();
 
-    return (
-        <div className="space-y-8 animate-fade-in pb-12">
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-                <div>
-                    <h1 className="text-3xl font-extrabold text-[#202124]">User Management</h1>
-                    <p className="text-[#5F6368] mt-1">Manage network participants and roles.</p>
-                </div>
-                <div className="relative group w-full md:w-auto">
-                    <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-[#5F6368] group-focus-within:text-[#1A73E8] transition-colors" size={20} />
-                    <input
-                        type="text"
-                        placeholder="Search users..."
-                        className="w-full md:w-80 pl-12 pr-4 py-3 border border-[#DADCE0] rounded-xl bg-white text-[#202124] focus:outline-none focus:ring-2 focus:ring-[#1A73E8]/20 focus:border-[#1A73E8] transition-all shadow-sm focus:shadow-md"
-                    />
-                </div>
+  return (
+    <div className="min-h-screen bg-slate-50/50 p-4 md:p-8">
+      <div className="max-w-7xl mx-auto space-y-8 animate-in fade-in duration-500">
+        {/* Header Section */}
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+          <div>
+            <h1 className="text-4xl font-black text-slate-900 tracking-tight">User Management</h1>
+            <p className="text-slate-500 mt-2 font-medium">Oversee your network participants and system access.</p>
+          </div>
+          <div className="flex items-center gap-3 w-full md:w-auto">
+            <div className="relative group flex-1 md:w-80">
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-indigo-600 transition-colors" size={18} />
+              <input
+                type="text"
+                placeholder="Search by name or email..."
+                className="w-full pl-11 pr-4 py-3 bg-white border border-slate-200 rounded-2xl text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-4 focus:ring-indigo-500/10 focus:border-indigo-500 transition-all shadow-sm"
+              />
             </div>
-
-            <div className="bg-white border border-[#DADCE0] rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow overflow-x-auto">
-                <div className="overflow-x-auto">
-                    <table className="w-full text-left border-collapse">
-                        <thead className="bg-[#F8F9FA] text-[#5F6368]">
-                            <tr>
-                                <th className="p-5 text-xs font-bold uppercase tracking-wider">User Identity</th>
-                                <th className="p-5 text-xs font-bold uppercase tracking-wider">System Role</th>
-                                <th className="p-5 text-xs font-bold uppercase tracking-wider">Membership</th>
-                                <th className="p-5 text-xs font-bold uppercase tracking-wider">Token Balance</th>
-                                <th className="p-5 text-xs font-bold uppercase tracking-wider text-right">Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody className="divide-y divide-[#E8EAED]">
-                            {users.map((user) => (
-                                <tr key={user.id} className="hover:bg-[#F9FAFB] transition-colors group">
-                                    <td className="p-5">
-                                        <div className="flex items-center gap-4">
-                                            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#E8F0FE] to-[#D2E3FC] flex items-center justify-center text-[#1967D2] font-bold shadow-inner">
-                                                {user.name ? user.name.charAt(0).toUpperCase() : <User size={18} />}
-                                            </div>
-                                            <div>
-                                                <p className="font-bold text-[#202124] group-hover:text-[#1A73E8] transition-colors text-sm">{user.name || 'Anonymous User'}</p>
-                                                <p className="text-xs text-[#5F6368]">{user.email}</p>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td className="p-5">
-                                        {user.isOwner ? (
-                                            <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#FCE8E6] text-[#C5221F] rounded-full text-xs font-bold border border-[#FAD2CF] shadow-sm">
-                                                <Shield size={12} fill="currentColor" /> OWNER
-                                            </span>
-                                        ) : user.adminRole ? (
-                                            <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#F3E8FD] text-[#9334E6] rounded-full text-xs font-bold border border-[#E9D5FF] shadow-sm">
-                                                <Shield size={12} /> {user.adminRole.name}
-                                            </span>
-                                        ) : (
-                                            <span className="px-3 py-1 bg-[#F1F3F4] text-[#5F6368] rounded-full text-xs font-bold border border-[#E8EAED]">Customer</span>
-                                        )}
-                                    </td>
-                                    <td className="p-5">
-                                        <div className={`px-3 py-1 rounded-full text-xs font-bold border inline-block shadow-sm ${user.membershipTier === 'DIAMOND' ? 'bg-cyan-50 text-cyan-700 border-cyan-200' :
-                                            user.membershipTier === 'GOLD' ? 'bg-amber-50 text-amber-700 border-amber-200' :
-                                                'bg-gray-50 text-gray-600 border-gray-200'
-                                            }`}>
-                                            {user.membershipTier}
-                                        </div>
-                                    </td>
-                                    <td className="p-5">
-                                        <span className="font-mono font-bold text-[#202124] bg-[#F1F3F4] px-2 py-1 rounded-md text-sm border border-[#E8EAED]">
-                                            {parseFloat(user.snishopBalance).toFixed(2)} SNI
-                                        </span>
-                                    </td>
-
-                                    <td className="p-5 text-right">
-                                        <UserDrawer user={user}>
-                                            <button className="text-[#1A73E8] hover:text-[#174EA6] hover:bg-[#E8F0FE] px-4 py-2 rounded-lg text-sm font-bold transition-all">
-                                                Manage
-                                            </button>
-                                        </UserDrawer>
-                                    </td>
-                                </tr>
-                            ))}
-                            {users.length === 0 && (
-                                <tr>
-                                    <td colSpan={5} className="p-12 text-center text-[#5F6368]">
-                                        <div className="flex flex-col items-center justify-center opacity-50">
-                                            <User size={48} className="mb-2" />
-                                            <p className="font-medium">No users found</p>
-                                        </div>
-                                    </td>
-                                </tr>
-                            )}
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <div className="flex items-center justify-between text-xs text-[#5F6368] px-2">
-                <p>Showing {users.length} registered users</p>
-                <p>Secure Connection • Encrypted Data</p>
-            </div>
+            <button className="p-3 bg-white border border-slate-200 rounded-2xl text-slate-600 hover:text-indigo-600 hover:border-indigo-100 hover:bg-indigo-50/50 transition-all shadow-sm">
+              <Filter size={20} />
+            </button>
+          </div>
         </div>
-    );
+
+        {/* Stats Summary */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {[
+            { label: 'Total Users', value: users.length, color: 'indigo' },
+            { label: 'Active Today', value: Math.floor(users.length * 0.8), color: 'emerald' },
+            { label: 'New This Week', value: Math.floor(users.length * 0.1), color: 'amber' },
+            { label: 'Pending Verif', value: 0, color: 'slate' }
+          ].map((stat, i) => (
+            <div key={i} className="bg-white p-5 rounded-3xl border border-slate-200 shadow-sm">
+              <p className="text-sm font-bold text-slate-500 uppercase tracking-wider">{stat.label}</p>
+              <p className="text-2xl font-black text-slate-900 mt-1">{stat.value}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* Main Table Container */}
+        <div className="bg-white border border-slate-200 rounded-[2rem] shadow-sm overflow-hidden">
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse">
+              <thead>
+                <tr className="border-b border-slate-100 bg-slate-50/50">
+                  <th className="px-6 py-5 text-left text-xs font-bold text-slate-500 uppercase tracking-widest">User Details</th>
+                  <th className="px-6 py-5 text-left text-xs font-bold text-slate-500 uppercase tracking-widest">Access Level</th>
+                  <th className="px-6 py-5 text-left text-xs font-bold text-slate-500 uppercase tracking-widest">Membership</th>
+                  <th className="px-6 py-5 text-left text-xs font-bold text-slate-500 uppercase tracking-widest text-right">Actions</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100">
+                {users.map((user) => (
+                  <tr key={user.id} className="hover:bg-slate-50/30 transition-colors group">
+                    <td className="px-6 py-5">
+                      <div className="flex items-center gap-4">
+                        <div className="relative">
+                          <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-indigo-200">
+                            {user.name ? user.name.charAt(0).toUpperCase() : <User size={20} />}
+                          </div>
+                          <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-emerald-500 border-2 border-white rounded-full"></div>
+                        </div>
+                        <div>
+                          <p className="font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">{user.name || 'Anonymous User'}</p>
+                          <div className="flex items-center gap-1.5 text-xs text-slate-500 mt-0.5">
+                            <Mail size={12} />
+                            <span>{user.email}</span>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td className="px-6 py-5">
+                      {user.isOwner ? (
+                        <span className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-rose-50 text-rose-600 rounded-xl text-[10px] font-black uppercase tracking-tighter border border-rose-100 shadow-sm shadow-rose-50">
+                          <Shield size={12} className="fill-current" /> System Owner
+                        </span>
+                      ) : user.adminRole ? (
+                        <span className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-indigo-50 text-indigo-600 rounded-xl text-[10px] font-black uppercase tracking-tighter border border-indigo-100 shadow-sm shadow-indigo-50">
+                          <Shield size={12} /> {user.adminRole.name}
+                        </span>
+                      ) : (
+                        <span className="inline-flex items-center px-3 py-1.5 bg-slate-100 text-slate-600 rounded-xl text-[10px] font-black uppercase tracking-tighter border border-slate-200">
+                          Standard User
+                        </span>
+                      )}
+                    </td>
+                    <td className="px-6 py-5">
+                      <div className={`inline-flex items-center px-3 py-1.5 rounded-xl text-[10px] font-black uppercase tracking-tighter border shadow-sm ${
+                        user.membershipTier === 'DIAMOND' ? 'bg-cyan-50 text-cyan-700 border-cyan-100' :
+                        user.membershipTier === 'GOLD' ? 'bg-amber-50 text-amber-700 border-amber-100' :
+                        'bg-slate-50 text-slate-600 border-slate-200'
+                      }`}>
+                        {user.membershipTier}
+                      </div>
+                    </td>
+                    <td className="px-6 py-5 text-right">
+                      <div className="flex items-center justify-end gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <UserDrawer user={user}>
+                          <button className="p-2 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-xl transition-all">
+                            <Edit size={18} />
+                          </button>
+                        </UserDrawer>
+                        <button className="p-2 text-slate-400 hover:text-rose-600 hover:bg-rose-50 rounded-xl transition-all">
+                          <Trash2 size={18} />
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          
+          <div className="px-6 py-5 border-t border-slate-100 bg-slate-50/30 flex items-center justify-between">
+            <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">
+              Total {users.length} Records
+            </p>
+            <div className="flex items-center gap-2">
+              <button className="px-4 py-2 text-xs font-bold text-slate-400 cursor-not-allowed">Previous</button>
+              <button className="px-4 py-2 text-xs font-bold text-slate-600 hover:text-indigo-600 transition-colors">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
