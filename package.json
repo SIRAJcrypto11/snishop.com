@@ -1,4 +1,21 @@
 {
+  "name": "crypto-snishop-network",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Crypto Snishop Network - Dashboard & Token Platform",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@openzeppelin/contracts": "^5.4.0",
     "dotenv": "^17.3.1",
@@ -7,18 +24,8 @@
     "react": "^19.2.4",
     "recharts": "^3.7.0"
   },
-  "name": "crypto-snishop-network",
-  "version": "1.0.0",
-  "main": "index.js",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^4.0.0",
     "hardhat": "^2.22.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm --filter frontend run build",
-  "installCommand": "pnpm install --no-frozen-lockfile",
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "installCommand": "echo 'Dependencies will be installed in build command'",
   "outputDirectory": "frontend/.next"
 }
