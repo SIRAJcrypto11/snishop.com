@@ -1,111 +1,133 @@
 "use client";
-import React from 'react';
-import { useSnishop } from '../../../context/SnishopContext';
-import { Check, Star, Zap } from 'lucide-react';
+import React, { useState } from 'react';
+import { Globe, Cpu, BarChart2, MessageSquare, Shield, Zap, ExternalLink, Star, ChevronRight, Search, Filter, CheckCircle } from 'lucide-react';
+
+const services = [
+    { id: 1, icon: Globe, name: 'Web Development', desc: 'Custom websites and web applications built with modern tech stack', category: 'Development', status: 'available', rating: 4.9, reviews: 128, price: 'From 3M IDR', color: 'text-indigo-600', bg: 'bg-indigo-50', badge: 'Popular' },
+    { id: 2, icon: Cpu, name: 'ERP System', desc: 'Enterprise resource planning solution for your business operations', category: 'Enterprise', status: 'available', rating: 4.8, reviews: 95, price: 'From 10M IDR', color: 'text-violet-600', bg: 'bg-violet-50', badge: 'Enterprise' },
+    { id: 3, icon: BarChart2, name: 'Data Analytics', desc: 'Business intelligence and data visualization dashboards', category: 'Analytics', status: 'available', rating: 4.7, reviews: 64, price: 'From 5M IDR', color: 'text-emerald-600', bg: 'bg-emerald-50', badge: null },
+    { id: 4, icon: MessageSquare, name: 'Chatbot & AI', desc: 'Custom AI chatbots and automation solutions for your business', category: 'AI', status: 'available', rating: 4.9, reviews: 87, price: 'From 7M IDR', color: 'text-amber-600', bg: 'bg-amber-50', badge: 'New' },
+    { id: 5, icon: Shield, name: 'Cybersecurity Audit', desc: 'Security assessment and penetration testing for your systems', category: 'Security', status: 'available', rating: 4.6, reviews: 43, price: 'From 5M IDR', color: 'text-rose-600', bg: 'bg-rose-50', badge: null },
+    { id: 6, icon: Zap, name: 'API Integration', desc: 'Connect and integrate third-party APIs and payment gateways', category: 'Development', status: 'coming_soon', rating: null, reviews: 0, price: 'Coming Soon', color: 'text-cyan-600', bg: 'bg-cyan-50', badge: 'Soon' },
+];
+
+const categories = ['All', 'Development', 'Enterprise', 'Analytics', 'AI', 'Security'];
 
 export default function ServicesPage() {
-    const { buyService } = useSnishop();
+    const [activeCategory, setActiveCategory] = useState('All');
+    const [search, setSearch] = useState('');
 
-    const services = [
-        {
-            id: 1,
-            name: "ERP System Enterprise",
-            description: "Complete business management solution with HR, Finance, and Inventory modules.",
-            price: 5000,
-            features: ["Unlimited Users", "Advanced Analytics", "24/7 Support"],
-            icon: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e711957c86e922f92ad49f/a236b74f4_Logosnishopbirupanjang.png"
-        },
-        {
-            id: 2,
-            name: "TODOIT Pro",
-            description: "AI-powered task management for teams to boost productivity.",
-            price: 1000,
-            features: ["Team Collaboration", "AI Suggestions", "Kanban & Calendar"],
-            icon: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/688a42916670b89e7b51038c/de7e35572_logo.png"
-        },
-        {
-            id: 3,
-            name: "Budgy Premium",
-            description: "Smart finance tracking and budgeting tool for personal and business use.",
-            price: 800,
-            features: ["Bank Sync", "Expense Categorization", "Financial Reports"],
-            icon: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/cae5a7a92_logo.png"
-        },
-        {
-            id: 4,
-            name: "VoiceScribe AI",
-            description: "Transcribe meetings and audio files instantly with high accuracy.",
-            price: 1200,
-            features: ["Multi-language Support", "Speaker Identification", "Export to PDF/Word"],
-            icon: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68bba57a36470263178ec522/c8c4dc720_logo.png"
-        }
-    ];
-
-    const handleBuy = (service) => {
-        const success = buyService(service.name, service.price);
-        if (success) {
-            alert(`Successfully purchased ${service.name}!`);
-        } else {
-            alert("Insufficient Platform Credits. Please Top Up.");
-        }
-    };
+    const filtered = services.filter(s => {
+        const matchCat = activeCategory === 'All' || s.category === activeCategory;
+        const matchSearch = s.name.toLowerCase().includes(search.toLowerCase()) || s.desc.toLowerCase().includes(search.toLowerCase());
+        return matchCat && matchSearch;
+    });
 
     return (
-        <div className="max-w-6xl mx-auto space-y-8 animate-fade-in pb-12">
-            <div className="text-center max-w-2xl mx-auto mb-12">
-                <h1 className="text-3xl md:text-4xl font-extrabold text-[#202124] mb-4">Premium Services</h1>
-                <p className="text-[#5F6368] text-lg">
-                    Unlock the full potential of your business with our enterprise-grade tools.
-                </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
-                {services.map((service) => (
-                    <div key={service.id} className="group bg-white rounded-xl p-6 border border-[#DADCE0] hover:border-[#1A73E8]/50 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col min-w-0">
-                        {service.name.includes("ERP") && (
-                            <div className="absolute top-4 right-4 bg-gradient-to-r from-[#F9AB00] to-[#F57F17] text-white text-[10px] font-bold px-2 py-1 rounded-full flex items-center gap-1 shadow-sm z-10">
-                                <Star size={10} fill="currentColor" />
-                                POPULAR
-                            </div>
-                        )}
-
-                        <div className="flex items-start gap-4 mb-4">
-                            <div className="w-16 h-16 rounded-xl bg-[#F8F9FA] border border-[#E8EAED] p-2 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
-                                <img src={service.icon} alt={service.name} className="w-full h-full object-contain" />
-                            </div>
-                            <div>
-                                <h3 className="text-xl font-bold text-[#202124] mb-1 group-hover:text-[#1A73E8] transition-colors">{service.name}</h3>
-                                <div className="flex items-baseline gap-1">
-                                    <span className="text-lg font-bold text-[#1A73E8]">{service.price.toLocaleString()}</span>
-                                    <span className="text-xs text-[#5F6368] font-medium">Credits / Year</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <p className="text-[#5F6368] text-sm mb-6 grow leading-relaxed">
-                            {service.description}
-                        </p>
-
-                        <div className="space-y-3 mb-6 bg-[#F8F9FA] rounded-xl p-4 border border-[#E8EAED]">
-                            {service.features.map((feature, idx) => (
-                                <div key={idx} className="flex items-center gap-2 text-sm text-[#3C4043] font-medium">
-                                    <div className="p-0.5 rounded-full bg-[#E6F4EA] text-[#1E8E3E]">
-                                        <Check size={12} strokeWidth={3} />
-                                    </div>
-                                    {feature}
-                                </div>
-                            ))}
-                        </div>
-
-                        <button
-                            onClick={() => handleBuy(service)}
-                            className="w-full py-3 rounded-lg bg-[#1A73E8] text-white font-bold hover:bg-[#1557B0] transition-colors flex items-center justify-center gap-2 shadow-sm group-hover:shadow-md mt-auto"
-                        >
-                            <Zap size={18} />
-                            Get Started
-                        </button>
+        <div className="min-h-screen bg-slate-50">
+            <div className="max-w-6xl mx-auto px-6 py-8">
+                {/* Page Header */}
+                <div className="flex items-start justify-between mb-8">
+                    <div>
+                        <h1 className="text-2xl font-bold text-slate-900">Services</h1>
+                        <p className="text-sm text-slate-500 mt-1">Explore our professional development and technology services</p>
                     </div>
-                ))}
+                    <div className="flex items-center gap-2 bg-indigo-50 border border-indigo-100 rounded-lg px-4 py-2">
+                        <CheckCircle size={14} className="text-indigo-600" />
+                        <span className="text-xs font-semibold text-indigo-700">{services.filter(s => s.status === 'available').length} Services Available</span>
+                    </div>
+                </div>
+
+                {/* Search & Filter Bar */}
+                <div className="flex items-center gap-3 mb-6">
+                    <div className="flex-1 relative">
+                        <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+                        <input
+                            type="text"
+                            placeholder="Search services..."
+                            value={search}
+                            onChange={(e) => setSearch(e.target.value)}
+                            className="w-full pl-9 pr-4 py-2.5 text-sm border border-slate-200 rounded-lg bg-white text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                        />
+                    </div>
+                    <div className="flex items-center gap-1 bg-white border border-slate-200 rounded-lg p-1">
+                        {categories.map(cat => (
+                            <button key={cat} onClick={() => setActiveCategory(cat)}
+                                className={`px-3 py-1.5 text-xs font-medium rounded-md transition-all ${
+                                    activeCategory === cat ? 'bg-indigo-600 text-white' : 'text-slate-500 hover:text-slate-700 hover:bg-slate-50'
+                                }`}>
+                                {cat}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+
+                {/* Services Grid */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {filtered.map(service => (
+                        <div key={service.id} className={`bg-white border border-slate-200 rounded-lg p-6 hover:shadow-md transition-all duration-200 group ${
+                            service.status === 'coming_soon' ? 'opacity-70' : 'cursor-pointer'
+                        }`}>
+                            <div className="flex items-start justify-between mb-5">
+                                <div className={`w-11 h-11 rounded-lg ${service.bg} flex items-center justify-center flex-shrink-0`}>
+                                    <service.icon size={22} className={service.color} />
+                                </div>
+                                {service.badge && (
+                                    <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${
+                                        service.badge === 'Popular' ? 'bg-indigo-50 text-indigo-700' :
+                                        service.badge === 'Enterprise' ? 'bg-violet-50 text-violet-700' :
+                                        service.badge === 'New' ? 'bg-emerald-50 text-emerald-700' :
+                                        'bg-slate-100 text-slate-600'
+                                    }`}>{service.badge}</span>
+                                )}
+                            </div>
+
+                            <h3 className="text-sm font-bold text-slate-900 mb-1.5">{service.name}</h3>
+                            <p className="text-xs text-slate-500 leading-relaxed mb-5">{service.desc}</p>
+
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <p className="text-sm font-bold text-slate-900">{service.price}</p>
+                                    {service.rating && (
+                                        <div className="flex items-center gap-1 mt-0.5">
+                                            <Star size={11} className="text-amber-500 fill-amber-500" />
+                                            <span className="text-xs font-semibold text-slate-700">{service.rating}</span>
+                                            <span className="text-xs text-slate-400">({service.reviews})</span>
+                                        </div>
+                                    )}
+                                </div>
+                                {service.status === 'available' ? (
+                                    <button className="flex items-center gap-1.5 px-3 py-2 bg-indigo-600 text-white text-xs font-semibold rounded-lg hover:bg-indigo-700 transition-colors group-hover:gap-2">
+                                        Order <ChevronRight size={12} />
+                                    </button>
+                                ) : (
+                                    <span className="px-3 py-2 bg-slate-100 text-slate-500 text-xs font-medium rounded-lg">Coming Soon</span>
+                                )}
+                            </div>
+                        </div>
+                    ))}
+                </div>
+
+                {filtered.length === 0 && (
+                    <div className="text-center py-16">
+                        <div className="w-12 h-12 rounded-lg bg-slate-100 flex items-center justify-center mx-auto mb-4">
+                            <Search size={20} className="text-slate-400" />
+                        </div>
+                        <p className="text-sm font-medium text-slate-600">No services found</p>
+                        <p className="text-xs text-slate-400 mt-1">Try a different search term or category</p>
+                    </div>
+                )}
+
+                {/* CTA Section */}
+                <div className="mt-8 bg-white border border-slate-200 rounded-lg p-6 flex items-center justify-between">
+                    <div>
+                        <h3 className="text-sm font-bold text-slate-900">Need a custom solution?</h3>
+                        <p className="text-xs text-slate-500 mt-0.5">Contact us to discuss your specific requirements</p>
+                    </div>
+                    <button className="flex items-center gap-2 px-4 py-2.5 bg-indigo-600 text-white text-sm font-semibold rounded-lg hover:bg-indigo-700 transition-colors">
+                        <ExternalLink size={14} /> Contact Us
+                    </button>
+                </div>
             </div>
         </div>
     );
